@@ -22,6 +22,35 @@
       text-align: center;
     }
   }
+
+  .publication {
+    .title {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+
+  .publication-container {
+    font-size: 1em;
+    display: flex;
+    .publication-id {
+      width: 3em;
+      margin-bottom: 0em;
+    }
+    .publication-content {
+      margin-bottom: 0em;
+      p {
+        margin-bottom: 0em;
+        line-height: 1.5em;
+      }
+    }
+    .publication-title {
+      letter-spacing: 0em;
+      text-transform: none;
+      margin-bottom: 0em;
+    }
+  }
+
   .experience {
     .title {
       font-size: 1.2em;
@@ -96,13 +125,11 @@
 
   .degree {
     margin-bottom: 0.3em;
-    text-transform: none;
     letter-spacing: 0.1em;
     font-size: 1em;
   }
 
   .school {
-    text-transform: none;
     padding-top: 0.3em;
     margin-bottom: 1em;
   }

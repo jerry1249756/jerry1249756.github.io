@@ -22,7 +22,7 @@ const data = [
   {
     title: 'Immersed in the Sounds of Space',
     subtitle: 'NASA Space App Challange 2023',
-    link: 'https://youtu.be/T-8iSjJYqs8',
+    link: 'https://www.spaceappschallenge.org/2023/find-a-team/expecto-patronum/?tab=project',
     image: '/images/projects/NASA.png',
     date: '2023-10',
     desc:
@@ -31,11 +31,20 @@ const data = [
       + 'Ensembled features from different wavelength channels to produce instrumental sounds in various frequencies.',
   },
   {
+    title: 'Translingo',
+    subtitle: 'Google Hardware Product Sprint 2023',
+    image: '/images/projects/HPS.jpg',
+    date: '2023-08',
+    desc:
+      'Developed a transparent display system to bridge communication gaps by offering real-time language translation. '
+      + 'Incorporated gesture recognitions to realize touchless screens to help people with hearing loss. ',
+  },
+  {
     title: 'Real-Time FPGA-based Acoustic Imaging',
     subtitle: 'Final Project in Laboratory of Digital Circuit System',
     link: 'https://github.com/jerry1249756/DCLab',
     image: '/images/projects/DCLab.png',
-    date: '2023-10',
+    date: '2023-01',
     desc:
       'Implemented a low-complexity delay-and-sum algorithm on Altera DE2-115 FPGA using SystemVerilog to visualize the position of sound sources in real-time via VGA output. '
       + 'Demonstrated a significant reduction in implementation costs compared to currently high manufacturing costs.',
