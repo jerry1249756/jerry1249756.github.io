@@ -1,47 +1,44 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Approximate Logic Synthesis with Multi-Objective Simulated Annealing',
+    subtitle: 'Final Project in Logic Synthesis and Verification',
+    link: 'https://github.com/jerry1249756/LSV_final',
+    image: '/images/projects/ALS.jpg',
+    date: '2023-12',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Utilized multi-objective simulated annealing to synthesize approximate circuits within the given error bound based on the synthesis tool ABC. '
+      + 'Demonstrated substantial area reduction (8-98%) over IWLS benchmarks within 1% error rate and shows quality (5-91%) and runtime improvements over the existing ALS tool ALSRAC.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'QR decomposition engine for 5G MIMO demodulation',
+    subtitle: 'Final Project in Computer-aided VLSI System Design',
+    date: '2023-12',
+    image: '/images/projects/Gram-schmidt.png',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Implemented QR decomposition engine using modified Gram-Schmidt algorithm with 2.2% soft LLR error rate in Verilog. '
+      + 'Achieved 206 MHz operating frequency with 37.5 mW power under TSMC 130nm technology with full VLSI design flow (RTL to GDS). ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Immersed in the Sounds of Space',
+    subtitle: 'NASA Space App Challange 2023',
+    link: 'https://youtu.be/T-8iSjJYqs8',
+    image: '/images/projects/NASA.png',
+    date: '2023-10',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Developed an interactive website for users to “sonify” the space data with immersive, personalized auditory experiences. '
+      + 'Utilized the optical flow in fly-through video to position sound sources around the viewer based on the movement. '
+      + 'Ensembled features from different wavelength channels to produce instrumental sounds in various frequencies.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Real-Time FPGA-based Acoustic Imaging',
+    subtitle: 'Final Project in Laboratory of Digital Circuit System',
+    link: 'https://github.com/jerry1249756/DCLab',
+    image: '/images/projects/DCLab.png',
+    date: '2023-10',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Implemented a low-complexity delay-and-sum algorithm on Altera DE2-115 FPGA using SystemVerilog to visualize the position of sound sources in real-time via VGA output. '
+      + 'Demonstrated a significant reduction in implementation costs compared to currently high manufacturing costs.',
   },
 ];
 
