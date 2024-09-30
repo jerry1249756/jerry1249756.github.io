@@ -10,7 +10,7 @@ const projects = [
     highlights: [
       'Utilized multi-objective simulated annealing to synthesize approximate circuits within the given error bound based on the synthesis tool ABC. ',
       'Demonstrated substantial area reduction (8-98%) over IWLS benchmarks within 1% error rate and shows quality (5-91%) and runtime improvements over the existing ALS tool ALSRAC.',
-    ]
+    ],
   },
   {
     name: 'QR decomposition engine for 5G MIMO demodulation',
@@ -21,7 +21,7 @@ const projects = [
     highlights: [
       'Implemented QR decomposition engine using modified Gram-Schmidt algorithm with 2.2% soft LLR error rate in Verilog. ',
       'Achieved 206 MHz operating frequency with 37.5 mW power under TSMC 130nm technology with full VLSI design flow (RTL to GDSII). ',
-    ]
+    ],
   },
   {
     name: 'Immersed in the Sounds of Space',
@@ -34,7 +34,7 @@ const projects = [
       'Developed an interactive website for users to “sonify” the space data with immersive, personalized auditory experiences. ',
       'Utilized the optical flow in fly-through video to position sound sources around the viewer based on the movement. ',
       'Ensembled features from different wavelength channels to produce instrumental sounds in various frequencies.',
-    ]
+    ],
   },
   {
     name: 'Translingo',
@@ -45,7 +45,7 @@ const projects = [
     highlights: [
       'Developed a transparent display system to bridge communication gaps by offering real-time language translation. ',
       'Incorporated gesture recognitions to realize touchless screens to help people with hearing loss. ',
-    ]
+    ],
   },
   {
     name: 'Real-Time FPGA-based Acoustic Imaging',
@@ -57,7 +57,7 @@ const projects = [
     highlights: [
       'Implemented a low-complexity delay-and-sum algorithm on Altera DE2-115 FPGA using SystemVerilog to visualize the position of sound sources in real-time via VGA output. ',
       'Demonstrated a significant reduction in implementation costs compared to currently high manufacturing costs.',
-    ]
+    ],
   },
 ];
 
