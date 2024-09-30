@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 // import Markdown from 'markdown-to-jsx';
@@ -7,36 +7,43 @@ const Job = ({
   data: {
     name, position, url, startDate, endDate, summary, highlights,
   },
-}) => (
-  <article className="jobs-container">
-    <header>
-      {name
-        ? (
-          <h3>
-            <a href={url}>{name}</a> - {position}
-          </h3>
-        )
-        : <></>}
-      <p className="daterange">
-        {' '}
-        {dayjs(startDate).format('MMMM YYYY')} -{' '}
-        {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
-      </p>
-    </header>
-    {summary ? (
-      <p className="summary">
-        {summary}
-      </p>
-    ) : null}
-    {highlights ? (
-      <ul className="points">
-        {highlights.map((highlight) => (
-          <li key={highlight}>{highlight}</li>
-        ))}
-      </ul>
-    ) : null}
-  </article>
-);
+}) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <article className="jobs-container">
+      <header>
+        {name
+          ? (
+            <h3>
+              <a href={url}>{name} {position ? ` - ${position}` : ''}</a>
+            </h3>
+          )
+          : <></>}
+        <p className="daterange">
+          {' '}
+          {dayjs(startDate).format('MMMM YYYY')} -{' '}
+          {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
+        </p>
+      </header>
+      {summary ? (
+        <p className="summary">
+          {summary}
+        </p>
+      ) : null}
+      {open && highlights ? (
+        <ul className="points">
+          {highlights.map((highlight) => (
+            <li key={highlight}>{highlight}</li>
+          ))}
+        </ul>
+      ) : null}
+      <button type="button" onClick={() => setOpen(!open)}>
+        {open ? 'Show less' : 'Learn more'}
+      </button>
+    </article>
+  );
+};
 
 Job.propTypes = {
   data: PropTypes.shape({

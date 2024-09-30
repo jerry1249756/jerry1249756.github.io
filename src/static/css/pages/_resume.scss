@@ -1,6 +1,12 @@
 /* Resume */
 
 #resume {
+  .title {
+    .pdf {
+      margin-bottom: 1em;
+    }
+  }
+
   .link-to {
     position: relative;
     top: -4em;
@@ -9,10 +15,10 @@
   .link-container h4 {
     text-decoration: none;
     border-bottom: none;
+    padding-right: 0.5em;
     display: inline-flex;
     a {
-      padding: 0 0.5em;
-      margin: 0;
+      margin-right: 0.5em;
     }
   }
 
@@ -64,17 +70,24 @@
         margin: 0;
       }
     }
+    .awards {
+      li {
+        p {
+          margin-bottom: 0.5em;
+        }
+      }
+    }
   }
 
   .jobs-container {
     font-size: 1em;
-    padding-bottom: 0.5em;
+    margin-bottom: 2em;
     .points {
       margin-bottom: 0.8em;
       li {
         line-height: 1.5;
         font-size: 1em;
-        margin-bottom: 0.3em;
+        margin-bottom: 0.2em;
       }
     }
   }
@@ -106,7 +119,7 @@
   }
 
   .summary {
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
     font-size: 1.1em;
     // color:black;
   }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -9,19 +8,24 @@ import Experience from '../components/Resume/Experience';
 import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
 import Publications from '../components/Resume/Publication';
+import Awards from '../components/Resume/Awards';
+import Project from './Projects';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
+import awards from '../data/resume/awards';
 // import { skills, categories } from '../data/resume/skills';
 import publications from '../data/resume/publications';
+import projects from '../data/resume/projects';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
   Education: () => <Education data={degrees} />,
-  Publcations: () => <Publications data={publications} />,
-  Experience: () => <Experience data={work} />,
-  // Skills: () => <Skills skills={skills} categories={categories} />,
+  Publications: () => <Publications data={publications} />,
+  Research: () => <Experience data={work} />,
+  Projects: () => <Project data={projects} />,
+  Awards: () => <Awards data={awards} />,
   Courses: () => <Courses data={courses} />,
   References: () => <References />,
 };
@@ -35,8 +39,13 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="resume">Resume</Link>
+            Resume
           </h2>
+          <div className="pdf">
+            <a href={`${process.env.PUBLIC_URL}/files/CV.pdf`} target="_blank" rel="noopener noreferrer">
+              PDF version
+            </a>
+          </div>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
@@ -50,6 +59,9 @@ const Resume = () => (
         <Section key={name} />
       ))}
     </article>
+    <p className="image">
+      <img src={`${process.env.PUBLIC_URL}/images/projects/ALS.jpg`} alt="No data" />
+    </p>
   </Main>
 );
 
