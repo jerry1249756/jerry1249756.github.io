@@ -10,14 +10,14 @@ const PublicationItem = ({ data }) => (
       <p>
         {data.author.split(',').map((word, index, arr) => {
           const isLast = index === arr.length - 1;
-          return word === ' Che-Ming Chang'
+          return word === 'Che-Ming Chang'
             ? <strong key={word}>{word}{isLast ? '.' : ','} </strong>
             : `${word}${isLast ? '.' : ','} `;
         })}
       </p>
-      <strong className="publication-title">
-        {data.title}.
-      </strong>
+      <p className="publication-title">
+        {data.title}
+      </p>
       <p>
         {data.conference}.
       </p>

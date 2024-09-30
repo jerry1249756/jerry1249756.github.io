@@ -39,7 +39,9 @@ const work = [
   {
     startDate: '2024-09',
     summary: 'Warpage Surrogate Model for Package Design Optimization',
-    highlights: [],
+    highlights: [
+      'Developed a surrogate model using Physics-Informed Deep Operator Network (PI-DeepONet) to predict warpage in advanced package designs while addressing data shortage.',
+    ],
   },
   {
     name: 'Applied Logic and Computation in System Design Lab',

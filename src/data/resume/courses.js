@@ -49,11 +49,6 @@ const courses = [
     number: 'EE 3012',
     university: 'National Taiwan University, Department of Electrical Engineering',
   },
-  {
-    title: 'Computer Architecture',
-    number: 'EE 4039',
-    university: 'National Taiwan University, Department of Electrical Engineering',
-  },
 ];
 
 export default courses;

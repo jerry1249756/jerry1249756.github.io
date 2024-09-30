@@ -17,11 +17,11 @@ const data = [
     image: '/images/projects/Gram-schmidt.png',
     desc:
       'Implemented QR decomposition engine using modified Gram-Schmidt algorithm with 2.2% soft LLR error rate in Verilog. '
-      + 'Achieved 206 MHz operating frequency with 37.5 mW power under TSMC 130nm technology with full VLSI design flow (RTL to GDS). ',
+      + 'Achieved 206 MHz operating frequency with 37.5 mW power under TSMC 130nm technology with full VLSI design flow (RTL to GDSII). ',
   },
   {
     title: 'Immersed in the Sounds of Space',
-    subtitle: 'NASA Space App Challange 2023',
+    subtitle: 'NASA Space App Challange 2023 - Second Prize and Global Nominee',
     link: 'https://www.spaceappschallenge.org/2023/find-a-team/expecto-patronum/?tab=project',
     image: '/images/projects/NASA.png',
     date: '2023-10',
