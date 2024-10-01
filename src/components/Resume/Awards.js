@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
-const Awards = ({ data }) => (
+const Awards = ({ data = [] }) => (
   <div className="experience">
     <div className="link-to" id="awards" />
     <div className="title">
@@ -29,11 +29,7 @@ Awards.propTypes = {
       startDate: PropTypes.string.isRequired,
       endDate: PropTypes.string,
     }),
-  ),
-};
-
-Awards.defaultProps = {
-  data: [],
+  ).isRequired,
 };
 
 export default Awards;

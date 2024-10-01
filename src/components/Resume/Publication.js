@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import PublicationItem from './Publication/PublicationItem';
 
-const Publications = ({ data }) => (
+const Publications = ({ data = [] }) => (
   <div className="publication">
     <div className="link-to" id="publication" />
     <div className="title">
@@ -21,11 +21,7 @@ Publications.propTypes = {
       title: PropTypes.string,
       url: PropTypes.string,
     }),
-  ),
-};
-
-Publications.defaultProps = {
-  data: [],
+  ).isRequired,
 };
 
 export default Publications;

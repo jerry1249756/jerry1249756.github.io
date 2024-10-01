@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
 
-const Skills = ({ skills, categories }) => {
+const Skills = ({ skills = [] , categories = [] }) => {
   const initialButtons = Object.fromEntries(
     [['All', false]].concat(categories.map(({ name }) => [name, false])),
   );
@@ -79,18 +79,13 @@ Skills.propTypes = {
       competency: PropTypes.number,
       category: PropTypes.arrayOf(PropTypes.string),
     }),
-  ),
+  ).isRequired,
   categories: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
       color: PropTypes.string,
     }),
-  ),
-};
-
-Skills.defaultProps = {
-  skills: [],
-  categories: [],
+  ).isRequired,
 };
 
 export default Skills;

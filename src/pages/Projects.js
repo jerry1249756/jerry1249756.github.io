@@ -28,7 +28,7 @@ import Job from '../components/Resume/Experience/Job';
 
 // export default Projects;
 
-const Project = ({ data }) => (
+const Project = ({ data = [] }) => (
   <div className="experience">
     <div className="link-to" id="projects" />
     <div className="title">
@@ -50,11 +50,7 @@ Project.propTypes = {
       highlights: PropTypes.arrayOf(PropTypes.string),
       summary: PropTypes.string,
     }),
-  ),
-};
-
-Project.defaultProps = {
-  data: [],
+  ).isRequired,
 };
 
 export default Project;
