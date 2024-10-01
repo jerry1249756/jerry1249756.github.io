@@ -11,14 +11,14 @@ const TableRow = ({
 );
 
 TableRow.propTypes = {
-  format: PropTypes.func,
-  label: PropTypes.string.isRequired,
-  link: PropTypes.string,
+  label: PropTypes.string,
+  link: PropTypes.string.isRequired,
   value: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.number,
     PropTypes.string,
-  ]),
+  ]).isRequired,
+  format: PropTypes.func.isRequired,
 };
 
 export default TableRow;

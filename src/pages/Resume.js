@@ -59,9 +59,6 @@ const Resume = () => (
         <Section key={name} />
       ))}
     </article>
-    <p className="image">
-      <img src={`${process.env.PUBLIC_URL}/images/projects/ALS.jpg`} alt="No data" />
-    </p>
   </Main>
 );
 
