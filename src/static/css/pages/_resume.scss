@@ -81,7 +81,20 @@
 
   .jobs-container {
     font-size: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+    header {
+      h3 {
+        text-transform: none;
+        letter-spacing: 0.05em;
+        font-size: 1em;
+        margin-bottom: 0.5em;
+      }
+      p {
+        text-transform: none;
+        letter-spacing: 0.05em;
+        font-size: 0.9em;
+      }
+    }
     .points {
       margin-bottom: 0.8em;
       li {
@@ -119,8 +132,8 @@
   }
 
   .summary {
-    margin-bottom: 0.5em;
-    font-size: 1.1em;
+    margin-bottom: 0.2em;
+    font-size: 1em;
     // color:black;
   }
 
@@ -133,18 +146,21 @@
 }
 
 .daterange {
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
 }
 
 .degree-container {
   h4 {
-    font-weight: normal;
+    // font-weight: normal;
+    font-size: 1em;
+    text-transform: none;
+    letter-spacing: 0em;
   }
 
   .degree {
     margin-bottom: 0.3em;
     letter-spacing: 0.1em;
-    font-size: 1em;
+    // font-size: 1em;
   }
 
   .school {
