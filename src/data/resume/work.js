@@ -13,18 +13,6 @@
  */
 const work = [
   {
-    name: 'IBM Almaden Research Center',
-    position: 'Research Intern',
-    // url: 'http://skepticalinvestments.biz',
-    startDate: '2024-06',
-    endDate: '2024-09',
-    summary: 'LLM-based RTL code generation and improvement',
-    highlights: [
-      'Curated a high-quality dataset with various RTL-level optimization techniques via LLM-aided data augmentation.',
-      'Utilized ReAct (Reason and act) and CoT (Chain of Thought) prompting, integrated with dataflow analyzer tools, to guide LLM for effective pipelining.',
-    ],
-  },
-  {
     name: 'Electronic Design Automation Lab',
     position: 'Research Assistant',
     // url: 'http://skepticalinvestments.biz',
@@ -41,6 +29,18 @@ const work = [
     summary: 'Warpage Surrogate Model for Package Design Optimization',
     highlights: [
       'Developed a surrogate model using Physics-Informed Deep Operator Network (PI-DeepONet) to predict warpage in advanced package designs while addressing data shortage.',
+    ],
+  },
+  {
+    name: 'IBM Almaden Research Center',
+    position: 'Research Intern',
+    // url: 'http://skepticalinvestments.biz',
+    startDate: '2024-06',
+    endDate: '2024-09',
+    summary: 'Enhancing LLMs for HDL Code Optimization using Domain Knowledge Injection',
+    highlights: [
+      'Curated part of RTLOpt, the first comprehensive dataset designed to evaluate RTL optimization techniques, including pipelining and clock gating.',
+      'Utilized ReAct (Reason and act) and CoT (Chain of Thought) prompting, integrated with dataflow analyzer tools, to guide LLM for effective pipelining.',
     ],
   },
   {
