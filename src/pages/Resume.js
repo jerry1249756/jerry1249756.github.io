@@ -42,7 +42,7 @@ const Resume = () => (
             Resume
           </h2>
           <div className="pdf">
-            <a href={`${process.env.PUBLIC_URL}/files/CV.pdf`} target="_blank" rel="noopener noreferrer">
+            <a href={`${process.env.PUBLIC_URL}/files/CV_250302.pdf`} target="_blank" rel="noopener noreferrer">
               PDF version
             </a>
           </div>

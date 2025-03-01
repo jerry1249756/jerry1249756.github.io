@@ -4,7 +4,7 @@ const projects = [
     name: 'Approximate Logic Synthesis with Multi-Objective Simulated Annealing',
     summary: 'Final Project in Logic Synthesis and Verification',
     url: 'https://github.com/jerry1249756/LSV_final',
-    // image: '/images/projects/ALS.jpg',
+    report: 'LSV_report.pdf',
     startDate: '2023-10',
     endDate: '2023-12',
     highlights: [
@@ -17,6 +17,7 @@ const projects = [
     summary: 'Final Project in Computer-aided VLSI System Design',
     startDate: '2023-10',
     endDate: '2023-12',
+    report: 'CVSD_report.pdf',
     // image: '/images/projects/Gram-schmidt.png',
     highlights: [
       'Implemented QR decomposition engine using modified Gram-Schmidt algorithm with 2.2% soft LLR error rate in Verilog. ',
@@ -51,6 +52,7 @@ const projects = [
     name: 'Real-Time FPGA-based Acoustic Imaging',
     summary: 'Final Project in Laboratory of Digital Circuit System',
     url: 'https://github.com/jerry1249756/DCLab',
+    report: 'DCLab_report.pdf',
     // image: '/images/projects/DCLab.png',
     startDate: '2022-11',
     endDate: '2023-01',

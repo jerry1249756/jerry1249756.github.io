@@ -1,5 +1,11 @@
 const awards = [
   {
+    title: 'Taiwan Chip-based Industrial Innovation Program Research Scholarship',
+    issued: 'National Science and Technology Council (NSTC)',
+    startDate: '2024-06',
+    endDate: '2024-08',
+  },
+  {
     title: 'Scholarship for Overseas Internship Program',
     issued: 'NTU / Ministry of Education',
     startDate: '2024-06',
@@ -18,7 +24,7 @@ const awards = [
   },
   {
     title: 'College Student Research Scholarship',
-    issued: 'National Science and Technology Council',
+    issued: 'NSTC',
     startDate: '2023-08',
     endDate: '2024-02',
   },

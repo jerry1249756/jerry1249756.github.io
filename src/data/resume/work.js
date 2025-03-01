@@ -26,9 +26,10 @@ const work = [
   },
   {
     startDate: '2024-09',
-    summary: 'Warpage Surrogate Model for Package Design Optimization',
+    summary: 'Warpage Modeling for Advanced Packaging with DeepONet-Based Operator Learning',
     highlights: [
-      'Developed a surrogate model using Physics-Informed Deep Operator Network (PI-DeepONet) to predict warpage in advanced package designs while addressing data shortage.',
+      'Developed a convolutional neural network (CNN)-based deep operator network (DeepONet) to predict warpage in advanced packaging designs.',
+      'Achieved 435× speedup over an 8-multiprocess finite element method (FEM) while maintaining an average warpage error of 1.9%',
     ],
   },
   {
@@ -39,8 +40,9 @@ const work = [
     endDate: '2024-09',
     summary: 'Enhancing LLMs for HDL Code Optimization using Domain Knowledge Injection',
     highlights: [
-      'Curated part of RTLOpt, the first comprehensive dataset designed to evaluate RTL optimization techniques, including pipelining and clock gating.',
-      'Utilized ReAct (Reason and act) and CoT (Chain of Thought) prompting, integrated with dataflow analyzer tools, to guide LLM for effective pipelining.',
+      'Proposed RTLOpt, the first comprehensive dataset designed to evaluate RTL optimization techniques, including pipelining and clock gating.',
+      'Introduced MASCOT, a framework for HDL code optimization by injecting and retrieving domain-specific knowledge into the code generation process, aided with compiler and simulator feedback.',
+      'Achieved 20% / 10% improvements for larger LLMs /small fine-tuned LLMs compared to zero-shot and ReAct / Chain-of-Thought baseline on HDL optimization tasks.',
     ],
   },
   {
