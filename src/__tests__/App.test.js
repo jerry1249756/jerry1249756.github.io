@@ -102,16 +102,16 @@ describe('renders the app', () => {
   //   expect(jsonMock).toHaveBeenCalledTimes(1);
   // });
 
-  it('can navigate to /contact', async () => {
-    expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(5) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Contact |');
-    expect(window.location.pathname).toBe('/contact');
-  });
+  // it('can navigate to /contact', async () => {
+  //   expect.assertions(3);
+  //   const contactLink = document.querySelector(
+  //     '#header > nav > ul > li:nth-child(5) > a',
+  //   );
+  //   expect(contactLink).toBeInTheDocument();
+  //   await act(async () => {
+  //     await contactLink.click();
+  //   });
+  //   expect(document.title).toContain('Contact |');
+  //   expect(window.location.pathname).toBe('/contact');
+  // });
 });

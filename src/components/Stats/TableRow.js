@@ -21,4 +21,8 @@ TableRow.propTypes = {
   format: PropTypes.func.isRequired,
 };
 
+TableRow.defaultProps = {
+  label: '', // Add this line to satisfy ESLint
+};
+
 export default TableRow;
