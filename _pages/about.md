@@ -26,9 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<p style="text-align: justify;">
+Hi! I’m Che-Ming (Jerry) Chang, an incoming Ph.D. student at the <a href="https://gtcad.gatech.edu/" style="color: #4287f5;">Georgia Tech Computer-Aided Design Lab (GTCAD)</a>, advised by Prof. Sung Kyu Lim. I earned my B.S. in Electrical Engineering from National Taiwan University in June 2024.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p style="text-align: justify;">
+My research interests lie in **AI-driven Electronic Design Automation (EDA)**, with a focus on differentiable optimization and heterogeneous integration. I’m particularly excited about applying machine learning to improve design scalability and quality across the digital VLSI flow.
