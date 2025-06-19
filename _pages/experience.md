@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-<h3><strong>Education</strong></h3>
+<h4><strong>Education</strong></h4>
 <ul>
     <li> Ph.D. candidate in Electrical and Computer Engineering, University of Southern California, August 2025 </li>
     <li> B.S. in Electrical Engineering, National Taiwan University, June 2024 </li>
@@ -15,56 +15,63 @@ nav_order: 1
 </ul>  
 
 
-<h3><strong>Experience</strong></h3>
+<h4><strong>Experience</strong></h4>
 
-<table>
-  <tr>
-    <td width="60">
-      <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
-    </td>
-    <td>
-      <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
-      <em>Aug 2023 – Jan 2025</em><br>
-      <li>Researched in AI-driven EDA, focusing on reinforcement learning for placement optimization and operator learning for mechanical reliability prediction</li>
+<div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
+  <div style="flex: 0 0 80px; text-align: center;">
+    <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
+    <em>Aug 2023 – Jan 2025</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Researched AI-driven EDA: reinforcement learning for placement, operator learning for mechanical prediction.</li>
       <li>Advisor: Prof. Yao-Wen Chang</li>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="../assets/img/IBM.png" alt="IBM Logo" width="50">
-    </td>
-    <td>
-      <strong>Research Intern, AI for EDA Group, IBM Research, CA</strong><br>
-      <em>Jun 2024 – Sep 2024</em><br>
-      <li> Developed MASCOT, an agentic LLM framework that integrates domain-specific knowledge for optimizing HDL code</li>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
-    </td>
-    <td>
-      <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
-      <em>Sep 2022 – Jun 2024</em><br>
-      <li> Researched in qubit mapping algorithms for trapped-ion quantum computers under architecture-specific constraints.</li>
-			<li> Advisor: Prof. Jie-Hong Roland Jiang</li>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="../assets/img/google.png" alt="Google Logo" width="50">
-    </td>
-    <td>
-      <strong>Hardware Product Sprint, Google, New Taipei, Taiwan</strong><br>
-      <em>Jun 2023 – Sep 2023</em><br>
-      <ul>
-        <li> Co-developed Translingo, a transparent display tranlation device, with real-time gesture and speech recognition.</li>
     </ul>
-    </td>
-  </tr>
-</table>
+  </div>
+</div>
 
-<h3><strong>Awards</strong></h3>
+<div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
+  <div style="flex: 0 0 80px; text-align: center;">
+    <img src="../assets/img/IBM.png" alt="IBM Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Research Intern, AI for EDA Group, IBM Research, CA</strong><br>
+    <em>Jun 2024 – Sep 2024</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Developed MASCOT, an agentic LLM framework for HDL code optimization using injected domain knowledge.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
+  <div style="flex: 0 0 80px; text-align: center;">
+    <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
+    <em>Sep 2022 – Jun 2024</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Researched qubit mapping algorithms for trapped-ion quantum computers under architectural constraints.</li>
+      <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
+    </ul>
+  </div>
+</div>
+
+<div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
+  <div style="flex: 0 0 80px; text-align: center;">
+    <img src="../assets/img/google.png" alt="Google Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Hardware Product Sprint, Google, New Taipei, Taiwan</strong><br>
+    <em>Jun 2023 – Sep 2023</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Co-developed Translingo, a transparent display translation device with real-time gesture and speech recognition.</li>
+    </ul>
+  </div>
+</div>
+
+<h4><strong>Awards</strong></h4>
 <ul>
     <li> <strong>Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC</strong>, Sep 2024 - Jan 2025 </li>
 		<li> <strong>Scholarship for Overseas Internship Program, Ministry of Education,</strong> June 2024 - Aug 2024</li>
