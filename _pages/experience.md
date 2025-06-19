@@ -20,7 +20,7 @@ nav_order: 1
 <table>
   <tr>
     <td width="60">
-      <img src="assets/img/NTU.png" alt="EDA Lab Logo" width="50">
+      <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
     </td>
     <td>
       <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
@@ -31,7 +31,7 @@ nav_order: 1
   </tr>
   <tr>
     <td>
-      <img src="assets/img/IBM.png" alt="IBM Logo" width="50">
+      <img src="../assets/img/IBM.png" alt="IBM Logo" width="50">
     </td>
     <td>
       <strong>Research Intern, AI for EDA Group, IBM Research, CA</strong><br>
@@ -41,7 +41,7 @@ nav_order: 1
   </tr>
   <tr>
     <td>
-      <img src="assets/img/NTU.png" alt="Logic Lab Logo" width="50">
+      <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
     </td>
     <td>
       <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
@@ -52,7 +52,7 @@ nav_order: 1
   </tr>
   <tr>
     <td>
-      <img src="assets/img/google.png" alt="Google Logo" width="50">
+      <img src="../assets/img/google.png" alt="Google Logo" width="50">
     </td>
     <td>
       <strong>Hardware Product Sprint, Google, New Taipei, Taiwan</strong><br>
