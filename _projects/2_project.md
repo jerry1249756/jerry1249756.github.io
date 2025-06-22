@@ -3,7 +3,7 @@ layout: page
 title: Real-time FPGA-based Acoustic Imaging
 description: Final Project on Laboratory of Digital Circuit System
 img: assets/img/DCLab.png
-pdf: assets/pdf/DCLab_report.pdf
+pdf: ../assets/pdf/DCLab_report.pdf
 github: https://github.com/jerry1249756/DCLab
 importance: 2
 category: school

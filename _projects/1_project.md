@@ -3,7 +3,7 @@ layout: page
 title: Approximate Logic Synthesis with Multi-Objective Simulated Annealing
 description: Final Project on Logic Synthesis and Verification
 img: assets/img/LSV_title.jpg
-pdf: assets/pdf/LSV_report.pdf
+pdf: ../assets/pdf/LSV_report.pdf
 github: https://github.com/jerry1249756/LSV_final
 importance: 1
 category: school
