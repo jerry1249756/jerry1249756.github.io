@@ -22,7 +22,7 @@ nav_order: 1
     <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
+    <strong>Undergraduate Research Assistant, Electronic Design Automation Lab, Taipei</strong><br>
     <em>Aug 2023 – Jan 2025</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Researched AI-driven EDA: reinforcement learning for placement, operator learning for mechanical prediction.</li>
@@ -49,7 +49,7 @@ nav_order: 1
     <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
+    <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab, Taipei</strong><br>
     <em>Sep 2022 – Jun 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Researched qubit mapping algorithms for trapped-ion quantum computers under architectural constraints.</li>
@@ -63,7 +63,7 @@ nav_order: 1
     <img src="../assets/img/google.png" alt="Google Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Hardware Product Sprint, Google, New Taipei, Taiwan</strong><br>
+    <strong>Hardware Product Sprint, Google, New Taipei</strong><br>
     <em>Jun 2023 – Sep 2023</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Co-developed Translingo, a transparent display translation device with real-time gesture and speech recognition.</li>
