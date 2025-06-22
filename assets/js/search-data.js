@@ -413,6 +413,11 @@ ninja.data = [{
           description: "Final Project on Logic Synthesis and Verification",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-real-time-fpga-based-acoustic-imaging",
+          title: 'Real-time FPGA-based Acoustic Imaging',
+          description: "Final Project on Laboratory of Digital Circuit System",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
