@@ -1,36 +1,43 @@
 <div class="col mb-4">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      <div class="row no-gutters">
-        {% if project.img %}
-          <div class="col-md-4">
-            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
-          </div>
-        {% endif %}
-        <div class="{% if project.img %}col-md-8{% else %}col-md-12{% endif %}">
-          <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
-            <div class="d-flex flex-wrap gap-2 mb-2">
-              {% if project.abstract %}
-                <button class="btn btn-outline-primary btn-sm rounded-pill" type="button" onclick="toggleAbstract('{{ project.title | slugify }}')">Abstract</button>
-              {% endif %}
-              {% if project.pdf %}
-                <a href="{{ project.pdf }}" class="btn btn-outline-secondary btn-sm rounded-pill" target="_blank">PDF</a>
-              {% endif %}
-              {% if project.github %}
-                <a href="{{ project.github }}" class="btn btn-outline-dark btn-sm rounded-pill" target="_blank">Code</a>
-              {% endif %}
-            </div>
+  <div class="card h-100 hoverable">
+    <div class="row no-gutters">
+      {% if project.img %}
+        <div class="col-md-4">
+          {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+        </div>
+      {% endif %}
+      <div class="{% if project.img %}col-md-8{% else %}col-md-12{% endif %}">
+        <div class="card-body">
+          <!-- Title linked instead of full card -->
+          <h3 class="card-title">
+            <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" style="text-decoration: none; color: inherit;">
+              {{ project.title }}
+            </a>
+          </h3>
 
+          <p class="card-text">{{ project.description }}</p>
+
+          <!-- Buttons -->
+          <div class="d-flex flex-wrap gap-2 mb-2">
             {% if project.abstract %}
-              <div id="abstract-{{ project.title | slugify }}" style="display: none; text-align: justify;">
-                <p>{{ project.abstract }}</p>
-              </div>
+              <button class="btn btn-outline-primary btn-sm rounded-pill" type="button" onclick="toggleAbstract('{{ project.title | slugify }}')">Abstract</button>
+            {% endif %}
+            {% if project.pdf %}
+              <a href="{{ project.pdf }}" class="btn btn-outline-secondary btn-sm rounded-pill" target="_blank">PDF</a>
+            {% endif %}
+            {% if project.github %}
+              <a href="{{ project.github }}" class="btn btn-outline-info btn-sm rounded-pill" target="_blank">Code</a>
             {% endif %}
           </div>
+
+          <!-- Abstract section (toggleable) -->
+          {% if project.abstract %}
+            <div id="abstract-{{ project.title | slugify }}" style="display: none; text-align: justify;">
+              <p>{{ project.abstract }}</p>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
-  </a>
+  </div>
 </div>
