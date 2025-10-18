@@ -418,6 +418,11 @@ ninja.data = [{
           description: "Final Project on Laboratory of Digital Circuit System",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-immersed-in-the-sounds-of-space",
+          title: 'Immersed in the Sounds of Space',
+          description: "2023 NASA Space Apps Challenge (Global Nominee)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
