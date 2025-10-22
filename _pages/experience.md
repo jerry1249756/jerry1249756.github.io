@@ -19,13 +19,29 @@ nav_order: 1
 
 <div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
   <div style="flex: 0 0 80px; text-align: center;">
+    <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Taipei</strong><br>
+    <em>Aug 2023 – Jan 2025</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li>
+      <li>Advisor: Prof. Sung-Kyu Lim</li>
+    </ul>
+  </div>
+</div>
+
+
+<div style="padding: 4px; margin-bottom: 12px; display: flex; align-items: center;">
+  <div style="flex: 0 0 80px; text-align: center;">
     <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
     <strong>Undergraduate Research Assistant, Electronic Design Automation Lab, Taipei</strong><br>
     <em>Aug 2023 – Jan 2025</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Researched AI-driven EDA: reinforcement learning for placement, operator learning for mechanical prediction.</li>
+      <li>Reinforcement Learning for Macro Placement</li>
+      <li>DeepONet-based Operator Learning for Warpage Prediction</li>
       <li>Advisor: Prof. Yao-Wen Chang</li>
     </ul>
   </div>
@@ -39,7 +55,7 @@ nav_order: 1
     <strong>Research Intern, AI for EDA Group, IBM Research, CA</strong><br>
     <em>Jun 2024 – Sep 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Developed MASCOT, an agentic LLM framework for HDL code optimization using injected domain knowledge.</li>
+      <li>Agentic LLM framework for HDL code optimization</li>
     </ul>
   </div>
 </div>
@@ -52,7 +68,7 @@ nav_order: 1
     <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab, Taipei</strong><br>
     <em>Sep 2022 – Jun 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Researched qubit mapping algorithms for trapped-ion quantum computers under architectural constraints.</li>
+      <li>Qubit mappingfor trapped-ion quantum computers with drive-through architecture (Hon-Hai Research Institute)</li>
       <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
     </ul>
   </div>
