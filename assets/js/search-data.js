@@ -35,7 +35,7 @@ ninja.data = [{
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/CV_250316.pdf";
+            window.location.href = "/assets/pdf/CV_251003.pdf";
           },
         },{id: "post-a-post-with-plotly-js",
         
