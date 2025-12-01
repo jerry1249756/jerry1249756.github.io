@@ -9,7 +9,7 @@ nav_order: 1
 
 <h4><strong>Education</strong></h4>
 <ul>
-    <li> Ph.D. candidate in Electrical and Computer Engineering, University of Southern California, August 2025 </li>
+    <li> Ph.D. student in Electrical and Computer Engineering, University of Southern California, August 2025 </li>
     <li> B.S. in Electrical Engineering, National Taiwan University, June 2024 </li>
     Overall GPA: <strong>4.17/4.3</strong>, Major GPA: 4.17/4.3
 </ul>  
@@ -26,7 +26,7 @@ nav_order: 1
     <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <!-- <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li> -->
-      <li>Global routing and Layer Assignment</li>
+      <li>ML-based Global routing and Layer Assignment</li>
       <li>Advisor: Prof. Sung-Kyu Lim</li>
     </ul>
   </div>
