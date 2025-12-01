@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: GT ECE Ph.D. candidate
+subtitle: USC ECE Ph.D. student
 
 profile:
   align: right

@@ -23,9 +23,10 @@ nav_order: 1
   </div>
   <div style="margin-left: 8px;">
     <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Taipei</strong><br>
-    <em>Aug 2023 – Jan 2025</em>
+    <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li>
+      <!-- <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li> -->
+      <li>Global routing and Layer Assignment</li>
       <li>Advisor: Prof. Sung-Kyu Lim</li>
     </ul>
   </div>
@@ -68,7 +69,7 @@ nav_order: 1
     <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab, Taipei</strong><br>
     <em>Sep 2022 – Jun 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Qubit mappingfor trapped-ion quantum computers with drive-through architecture (Hon-Hai Research Institute)</li>
+      <li>Qubit mapping for trapped-ion quantum computers with drive-through architecture</li>
       <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
     </ul>
   </div>
