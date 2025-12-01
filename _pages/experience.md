@@ -22,7 +22,7 @@ nav_order: 1
     <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Taipei</strong><br>
+    <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, CA</strong><br>
     <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <!-- <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li> -->
