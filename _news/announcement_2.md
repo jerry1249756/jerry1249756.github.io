@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received ICCAD 2025 Student Scholar Program and USC GSG Travel Award! :sparkles: :smile:
+Received ICCAD 2025 Student Scholar Program Award! :sparkles: :smile:

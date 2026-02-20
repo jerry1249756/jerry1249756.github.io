@@ -1,5 +1,5 @@
 "ASP-DAC":
-  color: "#8739bf"
+  color: "#009f36"
 
 "DAC":
   color: "#39a4bf"
@@ -8,10 +8,10 @@
   color: "#39bf52"
 
 "ICCAD":
-  color: "#bf8139"
+  color: "#38b6e0"
 
 "TQE":
-  color: "#009f36"
+  color: "#8739bf"
 
 "EACL":
-  color: "#38b6e0"
+  color: "#bf8139"

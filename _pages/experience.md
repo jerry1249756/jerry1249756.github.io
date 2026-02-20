@@ -9,21 +9,34 @@ nav_order: 1
 
 <h4><strong>Education</strong></h4>
 <ul style="margin-top: 2px; margin-bottom: 0;">
-    <li> Ph.D. student in Electrical and Computer Engineering, University of Southern California, August 2025 </li>
+    <li> <strong> Ph.D. student in Electrical and Computer Engineering, University of Southern California </strong></li>
     Overall GPA: <strong>4.0/4.0</strong>
-    <li> B.S. in Electrical Engineering, National Taiwan University, June 2024 </li>
-    Overall GPA: <strong>4.17/4.3</strong>, Major GPA: 4.17/4.3
+    <li> <strong> B.S. in Electrical Engineering, National Taiwan University </strong> </li>
+    Major GPA: <strong>4.17/4.3</strong>
 </ul>  
 
 
 <h4><strong>Experience</strong></h4>
 
 <div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 80px; text-align: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
+    <img src="../assets/img/qualcomm.png" alt="EDA Lab Logo" width="50">
+  </div>
+  <div style="margin-left: 8px;">
+    <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
+    <em>May 2026</em>
+    <ul style="margin-top: 4px; margin-bottom: 0;">
+      <li>Developed intelligent physical design flow recommendation for SoC designs.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
     <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, CA</strong><br>
+    <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Los Angeles, CA</strong><br>
     <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <!-- <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li> -->
@@ -35,7 +48,7 @@ nav_order: 1
 
 
 <div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 80px; text-align: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
     <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
@@ -50,11 +63,11 @@ nav_order: 1
 </div>
 
 <div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 80px; text-align: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
     <img src="../assets/img/IBM.png" alt="IBM Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
-    <strong>Research Intern, AI for EDA Group, IBM Research, CA</strong><br>
+    <strong>Research Intern, AI for EDA Group, IBM Research, San Jose, CA</strong><br>
     <em>Jun 2024 – Sep 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Developed an agentic LLM framework for HDL code optimization.</li>
@@ -63,7 +76,7 @@ nav_order: 1
 </div>
 
 <div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 80px; text-align: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
     <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
@@ -77,7 +90,7 @@ nav_order: 1
 </div>
 
 <div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 80px; text-align: center;">
+  <div style="flex: 0 0 100px; text-align: center;">
     <img src="../assets/img/google.png" alt="Google Logo" width="50">
   </div>
   <div style="margin-left: 8px;">
