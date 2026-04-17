@@ -7,22 +7,74 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+  .experience-section {
+    margin: 0 0 2.5rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(120, 120, 120, 0.25);
+  }
+
+  .experience-section:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .experience-section h4 {
+    margin-bottom: 0.85rem;
+    letter-spacing: 0.04em;
+  }
+
+  .experience-entry {
+    padding: 4px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  .experience-logo {
+    flex: 0 0 100px;
+    text-align: center;
+  }
+
+  .experience-copy {
+    margin-left: 8px;
+  }
+
+  .compact-list {
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 640px) {
+    .experience-entry {
+      align-items: flex-start;
+    }
+
+    .experience-logo {
+      flex-basis: 72px;
+    }
+  }
+</style>
+
+<section class="experience-section">
 <h4><strong>Education</strong></h4>
-<ul style="margin-top: 2px; margin-bottom: 0;">
+<ul class="compact-list">
     <li> <strong> Ph.D. student in Electrical and Computer Engineering, University of Southern California </strong></li>
     Overall GPA: <strong>4.0/4.0</strong>
     <li> <strong> B.S. in Electrical Engineering, National Taiwan University </strong> </li>
     Major GPA: <strong>4.17/4.3</strong>
 </ul>  
+</section>
 
 
+<section class="experience-section">
 <h4><strong>Experience</strong></h4>
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/qualcomm.png" alt="EDA Lab Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/qualcomm.png" alt="EDA Lab Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
     <em>May 2026</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -31,11 +83,11 @@ nav_order: 1
   </div>
 </div>
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Los Angeles, CA</strong><br>
     <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -47,11 +99,11 @@ nav_order: 1
 </div>
 
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Undergraduate Research Assistant, Electronic Design Automation Lab, Taipei</strong><br>
     <em>Aug 2023 – Jan 2025</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -62,11 +114,11 @@ nav_order: 1
   </div>
 </div>
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/IBM.png" alt="IBM Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/IBM.png" alt="IBM Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Research Intern, AI for EDA Group, IBM Research, San Jose, CA</strong><br>
     <em>Jun 2024 – Sep 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -75,11 +127,11 @@ nav_order: 1
   </div>
 </div>
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab, Taipei</strong><br>
     <em>Sep 2022 – Jun 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -89,11 +141,11 @@ nav_order: 1
   </div>
 </div>
 
-<div style="padding: 4px; margin-bottom: 14px; display: flex; align-items: center;">
-  <div style="flex: 0 0 100px; text-align: center;">
-    <img src="../assets/img/google.png" alt="Google Logo" width="50">
+<div class="experience-entry">
+  <div class="experience-logo">
+    <img src="../assets/img/google.png" alt="Google Logo" width="60">
   </div>
-  <div style="margin-left: 8px;">
+  <div class="experience-copy">
     <strong>Hardware Product Sprint, Google, New Taipei</strong><br>
     <em>Jun 2023 – Sep 2023</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
@@ -101,9 +153,11 @@ nav_order: 1
     </ul>
   </div>
 </div>
+</section>
 
+<section class="experience-section">
 <h4><strong>Awards</strong></h4>
-<ul>
+<ul class="compact-list">
     <li> <strong>Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC</strong>, Sep 2024 - Jan 2025 </li>
 		<li> <strong>Scholarship for Overseas Internship Program, Ministry of Education,</strong> June 2024 - Aug 2024</li>
 		<li> <strong>Research Scholarship, MediaTek-NTU Research Center</strong>, Mar 2024 - Jun 2024 </li>
@@ -111,3 +165,4 @@ nav_order: 1
 		<li> <strong>College Student Research Scholarship, NSTC</strong>, Aug 2023 - Feb 2024 </li>
 		<li> <strong>Dean's List Award 23'Spring, NTU</strong>, June 2023</li> 
 </ul>
+</section>
