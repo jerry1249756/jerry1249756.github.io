@@ -76,7 +76,7 @@ nav_order: 1
   </div>
   <div class="experience-copy">
     <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
-    <em>May 2026</em>
+    <em>May 2026 - August 2026</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Developed intelligent physical design flow recommendation for SoC designs.</li>
     </ul>
@@ -85,7 +85,7 @@ nav_order: 1
 
 <div class="experience-entry">
   <div class="experience-logo">
-    <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="60">
+    <img src="../assets/img/USC_logo.png" alt="EDA Lab Logo" width="48">
   </div>
   <div class="experience-copy">
     <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Los Angeles, CA</strong><br>
@@ -104,13 +104,23 @@ nav_order: 1
     <img src="../assets/img/NTU.png" alt="EDA Lab Logo" width="60">
   </div>
   <div class="experience-copy">
-    <strong>Undergraduate Research Assistant, Electronic Design Automation Lab, Taipei</strong><br>
-    <em>Aug 2023 – Jan 2025</em>
-    <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Assisted in reinforcement learning for macro placement.</li>
-      <li>Developed a DeepONet-based operator learning framework for warpage prediction.</li>
-      <li>Advisor: Prof. Yao-Wen Chang</li>
-    </ul>
+    <div style="margin-top: 6px;">
+      <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
+      <em>Aug 2023 – Jan 2025</em>
+      <ul style="margin-top: 4px; margin-bottom: 10px;">
+        <li>Assisted in reinforcement learning for macro placement.</li>
+        <li>Developed a DeepONet-based operator learning framework for warpage prediction.</li>
+        <li>Advisor: Prof. Yao-Wen Chang</li>
+      </ul>
+    </div>
+    <div>
+      <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
+      <em>Sep 2022 – Jun 2024</em>
+      <ul style="margin-top: 4px; margin-bottom: 0;">
+        <li>Developed qubit mapping algorithms for trapped-ion quantum computers with drive-through architecture.</li>
+        <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -123,20 +133,6 @@ nav_order: 1
     <em>Jun 2024 – Sep 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
       <li>Developed an agentic LLM framework for HDL code optimization.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience-entry">
-  <div class="experience-logo">
-    <img src="../assets/img/NTU.png" alt="Logic Lab Logo" width="60">
-  </div>
-  <div class="experience-copy">
-    <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab, Taipei</strong><br>
-    <em>Sep 2022 – Jun 2024</em>
-    <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Developed qubit mapping algorithms for trapped-ion quantum computers with drive-through architecture.</li>
-      <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
     </ul>
   </div>
 </div>
