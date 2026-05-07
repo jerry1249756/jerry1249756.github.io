@@ -28,9 +28,10 @@ I am a Ph.D. student affiliated with <a href="https://sites.usc.edu/sccad/" styl
 
 <p style="text-align: justify;">
 My research interests lie in <strong>ML-driven Electronic Design Automation (EDA)</strong>, particular in 
-
-* Orchestration
-* Optimization-centric ML for EDA methods
-* Scientific / Geometric Machine Learning in Heterogeneous Integration (2.5D IC)
+<ul class="compact-list">
+<li> Orchestration
+<li> Optimization algorithms (differentiablility, gradient geometry)
+<li> Scientific / Geometric ML for Heterogeneous Integration (2.5D IC)
+</ul>
 
 In addition, I have hands-on experience across the digital VLSI design flow — from RTL to GDSII — using commercial tools like Synopsys Design Compiler and Cadence Innovus. Outside of research, I enjoy working out, playing volleyball, and playing the piano.
