@@ -78,7 +78,7 @@ nav_order: 1
     <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
     <em>May 2026 - August 2026</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Developed intelligent physical design flow recommendation for SoC designs.</li>
+      <li>Developed intelligent ECO physical design flow for SoC designs.</li>
     </ul>
   </div>
 </div>
@@ -162,3 +162,14 @@ nav_order: 1
 		<li> <strong>Dean's List Award 23'Spring, NTU</strong>, June 2023</li> 
 </ul>
 </section>
+
+<section class="experience-section">
+<h4><strong>Professional Experience</strong></h4>
+<ul class="compact-list">
+    <li> <strong>Reviewer for 45th International Conference on Computer-Aided Design (ICCAD'26)</strong> </li>
+    <li> <strong>Reviewer for 34th International Symposium on Physical Design (ISPD'25) </strong> </li>
+		<li> <strong>Volunteer for 27th International Conference on Quantum Information Processing (QIP'24)</strong> </li>
+		<li> <strong>Volunteer for the First IEEE International Workshop on LLM-Aided Design (LAD'24)</strong> </li>
+</ul>
+</section>
+
