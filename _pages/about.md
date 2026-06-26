@@ -27,11 +27,4 @@ latest_posts:
 I am a Ph.D. student affiliated with <a href="https://sites.usc.edu/sccad/" style="color: #4287f5;">Southern California Computer-Aided Design Lab (SCCAD)</a>, advised by Prof. Sung Kyu Lim. I received my B.S. in Electrical Engineering from National Taiwan University in June 2024 and previously interned at IBM Research.
 
 <p style="text-align: justify;">
-My research interests lie in <strong>ML-driven Electronic Design Automation (EDA)</strong>, particular in 
-<ul class="compact-list">
-<li> Orchestration</li>
-<li> Optimization algorithms (differentiablility, gradient geometry)</li>
-<li> Scientific / Geometric ML for Heterogeneous Integration (2.5/3D IC)</li>
-</ul>
-
-In addition, I have hands-on experience across the digital VLSI design flow — from RTL to GDSII — using commercial tools like Synopsys Design Compiler and Cadence Innovus. Outside of research, I enjoy working out, playing volleyball, and playing the piano.
+My research interests lie in <strong>ML-driven Electronic Design Automation (EDA)</strong>. In addition, I have hands-on experience across the digital VLSI design flow — from RTL to GDSII — using commercial tools like Synopsys Design Compiler and Cadence Innovus. Outside of research, I enjoy working out, playing volleyball, and playing the piano.
