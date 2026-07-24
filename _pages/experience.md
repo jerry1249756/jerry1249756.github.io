@@ -91,9 +91,7 @@ nav_order: 1
     <strong>Graduate Research Assistant, Southern California Computer-Aided Design Lab, Los Angeles, CA</strong><br>
     <em>Sep 2025 – Current</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <!-- <li>Simultaneous Gate Sizing, Buffering, Sequential Routing, and Layer Assignment (NVIDIA, 2025-26)</li> -->
-      <li>Developed a ML-based global routing and layer assignment refinement framework.</li>
-      <li>Advisor: Prof. Sung-Kyu Lim</li>
+      <li>Developed a ML-based global routing refinement framework.</li>
     </ul>
   </div>
 </div>
@@ -108,17 +106,15 @@ nav_order: 1
       <strong>Undergraduate Research Assistant, Electronic Design Automation Lab</strong><br>
       <em>Aug 2023 – Jan 2025</em>
       <ul style="margin-top: 4px; margin-bottom: 10px;">
-        <li>Assisted in reinforcement learning for macro placement.</li>
-        <li>Developed a DeepONet-based operator learning framework for warpage prediction.</li>
-        <li>Advisor: Prof. Yao-Wen Chang</li>
+        <li>Assisted in reinforcement learning for concurrent macro placement project.</li>
+        <li>Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.</ii>
       </ul>
     </div>
     <div>
       <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
       <em>Sep 2022 – Jun 2024</em>
       <ul style="margin-top: 4px; margin-bottom: 0;">
-        <li>Developed qubit mapping algorithms for trapped-ion quantum computers with drive-through architecture.</li>
-        <li>Advisor: Prof. Jie-Hong Roland Jiang</li>
+        <li>Developed a qubit mapping algorithm tailored for trapped-ion quantum computers with drive-through architecture.</li>
       </ul>
     </div>
   </div>
@@ -132,7 +128,7 @@ nav_order: 1
     <strong>Research Intern, AI for EDA Group, IBM Research, San Jose, CA</strong><br>
     <em>Jun 2024 – Sep 2024</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Developed an agentic LLM framework for HDL code optimization.</li>
+      <li>Developed an agentic LLM framework for RTL code optimization.</li>
     </ul>
   </div>
 </div>
@@ -145,7 +141,7 @@ nav_order: 1
     <strong>Hardware Product Sprint, Google, New Taipei</strong><br>
     <em>Jun 2023 – Sep 2023</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Co-developed Translingo, a transparent display translation device with real-time gesture and speech recognition.</li>
+      <li>Developed Translingo, a transparent display translation device with real-time gesture and speech recognition.</li>
     </ul>
   </div>
 </div>
