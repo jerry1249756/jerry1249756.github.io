@@ -107,7 +107,7 @@ nav_order: 1
       <em>Aug 2023 – Jan 2025</em>
       <ul style="margin-top: 4px; margin-bottom: 10px;">
         <li>Assisted in reinforcement learning for concurrent macro placement project.</li>
-        <li>Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.</ii>
+        <li>Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.</li>
       </ul>
     </div>
     <div>
