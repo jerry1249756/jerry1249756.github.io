@@ -78,7 +78,7 @@ nav_order: 1
     <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
     <em>May 2026 - August 2026</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Enhanced internal ECO leakage power recovery flow and setup recovery flow for SoC designs.</li>
+      <li>Delivered up to 26% runtime improvement for internal ECO-stage Vt assignment algorithm on SoC-scale designs, while maintaining similar timing/power QoR.</li>
     </ul>
   </div>
 </div>
