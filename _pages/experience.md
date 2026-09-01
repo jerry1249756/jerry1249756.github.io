@@ -114,7 +114,7 @@ nav_order: 1
       <strong>Undergraduate Research Assistant, Applied Logic and Computation Lab</strong><br>
       <em>Sep 2022 – Jun 2024</em>
       <ul style="margin-top: 4px; margin-bottom: 0;">
-        <li>Developed a qubit mapping algorithm tailored for trapped-ion quantum computers with drive-through architecture.</li>
+        <li>Researched qubit mapping for trapped-ion processors.</li>
       </ul>
     </div>
   </div>
@@ -141,7 +141,7 @@ nav_order: 1
     <strong>Hardware Product Sprint, Google, New Taipei</strong><br>
     <em>Jun 2023 – Sep 2023</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Developed Translingo, a transparent display translation device with real-time gesture and speech recognition.</li>
+      <li>Developed Translingo, a transparent display translation device with real-time gesture and speech recognition on a RaspberryPi hardware.</li>
     </ul>
   </div>
 </div>
