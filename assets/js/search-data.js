@@ -440,25 +440,11 @@ ninja.data = [{
           window.open("mailto:%63%68%65%6D%69%6E%67.%63%68%61%6E%67%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/jerry1249756", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/che-ming-jerry-chang-982339245", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0009-0006-9192-0217", "_blank");
         },
       },{
         id: 'social-scholar',
