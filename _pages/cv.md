@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/resume_260722.pdf
+permalink: /assets/pdf/resume_260924.pdf
 title: CV
 nav: true
 nav_order: 5

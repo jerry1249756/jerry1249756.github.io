@@ -78,7 +78,8 @@ nav_order: 1
     <strong>Research Intern, Methodology team, San Diego, CA</strong><br>
     <em>May 2026 - August 2026</em>
     <ul style="margin-top: 4px; margin-bottom: 0;">
-      <li>Delivered up to 26% runtime improvement for internal ECO-stage Vt assignment algorithm on SoC-scale designs, while maintaining similar timing/power QoR.</li>
+      <li>Developed an analytical, timing-aware Vt assignment methodology for ECO power optimization.</li>
+      <li>Improved TNS recovery by up to 36%, and full-flow ECO runtime by up to 26% on SoC-scale production designs while maintaining comparable timing and power QoR, enabling faster turnaround for production tapeouts.</li>
     </ul>
   </div>
 </div>
