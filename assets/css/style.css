@@ -17,8 +17,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "EB Garamond", Garamond, Georgia, serif;
-  font-size: 19px;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -26,8 +26,8 @@ a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 h2, h3, .brand {
-  font-family: "Cormorant Garamond", "EB Garamond", Georgia, serif;
-  font-weight: 600;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
   color: var(--ink);
 }
 
@@ -138,8 +138,8 @@ h2, h3, .brand {
   object-fit: contain;
   flex: 0 0 68px;
 }
-.job-body { min-width: 0; }
-.bullets { margin: 10px 0 0; padding-left: 20px; color: var(--ink); font-size: 18px; }
+.job-body { flex: 1 1 0; min-width: 0; }
+.bullets { margin: 10px 0 0; padding-left: 20px; color: var(--ink); font-size: 16px; }
 .bullets li { margin-bottom: 6px; }
 
 /* Publications */
