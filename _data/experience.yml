@@ -21,7 +21,7 @@ work:
 
   - role: Undergraduate Research Assistant, Electronic Design Automation Lab
     org: National Taiwan University
-    location: Taiwan
+    location: Taipei, Taiwan
     logo: NTU.png
     date: Aug 2023 – Jan 2025
     highlights:
@@ -30,7 +30,7 @@ work:
 
   - role: Undergraduate Research Assistant, Applied Logic and Computation Lab
     org: National Taiwan University
-    location: Taiwan
+    location: Taipei, Taiwan
     logo: NTU.png
     date: Sep 2022 – Jun 2024
     highlights:
@@ -46,7 +46,7 @@ work:
 
   - role: Hardware Product Sprint
     org: Google
-    location: New Taipei
+    location: New Taipei City, Taiwan
     logo: google.png
     date: Jun 2023 – Sep 2023
     highlights:
