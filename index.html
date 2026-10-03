@@ -14,30 +14,21 @@
 </head>
 <body>
 
-<div class="layout">
+<header class="topbar">
+  <a class="brand" href="#top">Che-Ming (Jerry) Chang</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+  </nav>
+</header>
 
-  <aside class="sidebar">
+<main class="page" id="top">
+
+  <section id="about" class="section intro">
     <img class="avatar" src="/assets/img/prof_pic.jpg" alt="Che-Ming (Jerry) Chang">
-    <h1 class="name">Che-Ming (Jerry) Chang</h1>
-    <p class="tagline">Ph.D. student, Electrical &amp; Computer Engineering, USC</p>
-
-    <nav class="nav" aria-label="Sections">
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
-    </nav>
-
-    <div class="profiles">
-      <a href="https://scholar.google.com/citations?user=IkYIgSQAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://www.linkedin.com/in/che-ming-jerry-chang-982339245" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a href="/assets/pdf/resume_260924.pdf" target="_blank" rel="noopener" aria-label="CV"><i class="fa-solid fa-file-pdf"></i></a>
-    </div>
-  </aside>
-
-  <main class="content">
-
-    <section id="about" class="section">
+    <div class="intro-body">
       <p>
         I am a Ph.D. student affiliated with the <a href="https://sites.usc.edu/sccad/" target="_blank" rel="noopener">Southern California Computer-Aided Design Lab (SCCAD)</a>, advised by Prof. Sung Kyu Lim. I received my B.S. in Electrical Engineering from National Taiwan University in June 2024 and previously interned at IBM Research and Qualcomm.
       </p>
@@ -45,178 +36,183 @@
         My research focuses on <strong>applying AI to electronic design automation (EDA)</strong>, with an emphasis on physical design, validated on not only academic benchmarks but also industrial flows. I have run end-to-end synthesis-to-signoff using <strong>Synopsys VCS, Design Compiler, PrimeTime, and Library Compiler</strong>, and <strong>Cadence Innovus</strong>.
       </p>
       <p>Outside of research, I enjoy working out, playing volleyball, and playing the piano.</p>
-    </section>
 
-    <section id="education" class="section">
-      <h2>Education</h2>
-      
-      <div class="entry">
-        <div class="entry-title">University of Southern California</div>
-        <div class="entry-meta">Ph.D. student, Electrical and Computer Engineering · GPA 4.0 / 4.0</div>
+      <div class="buttons">
+        <a class="btn" href="https://scholar.google.com/citations?user=IkYIgSQAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+        <a class="btn" href="https://www.linkedin.com/in/che-ming-jerry-chang-982339245" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a class="btn" href="/assets/pdf/resume_260924.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> CV</a>
       </div>
-      
-      <div class="entry">
-        <div class="entry-title">National Taiwan University</div>
-        <div class="entry-meta">B.S. in Electrical Engineering · GPA 4.17 / 4.3</div>
-      </div>
-      
+    </div>
+  </section>
 
-      <h3>Honors &amp; Scholarships</h3>
-      <ul class="plain-list">
-        
-        <li><span>Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC</span> <span class="muted">Sep 2024 – Jan 2025</span></li>
-        
-        <li><span>Scholarship for Overseas Internship Program, Ministry of Education</span> <span class="muted">Jun 2024 – Aug 2024</span></li>
-        
-        <li><span>Research Scholarship, MediaTek-NTU Research Center</span> <span class="muted">Mar 2024 – Jun 2024</span></li>
-        
-        <li><span>Second Prize and Global Nominee, NASA Space Apps Challenge</span> <span class="muted">Oct 2023</span></li>
-        
-        <li><span>College Student Research Scholarship, NSTC</span> <span class="muted">Aug 2023 – Feb 2024</span></li>
-        
-        <li><span>Dean's List Award '23 Spring, NTU</span> <span class="muted">Jun 2023</span></li>
-        
-      </ul>
-    </section>
+  <section id="education" class="section">
+    <h2>Education</h2>
+    
+    <div class="entry">
+      <div class="entry-title">University of Southern California</div>
+      <div class="entry-meta">Ph.D. student, Electrical and Computer Engineering · GPA 4.0 / 4.0</div>
+    </div>
+    
+    <div class="entry">
+      <div class="entry-title">National Taiwan University</div>
+      <div class="entry-meta">B.S. in Electrical Engineering · GPA 4.17 / 4.3</div>
+    </div>
+    
 
-    <section id="publications" class="section">
-      <h2>Publications</h2>
-      <ol class="pubs">
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            Encoding Symmetries into Operator Learning: Towards Accurate Multi-Physics Simulation in Advanced Packaging
-          </div>
-          <div class="pub-authors"><strong>Che-Ming Chang</strong>, Shao-Yu Lo, Yao-Wen Chang, Sung Kyu Lim</div>
-          <div class="pub-venue">32nd IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC), 2027</div>
-        </li>
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            WAFER: Warpage Analysis via Fourier-Enhanced Residual Calibration for Large-Scale 2.5D IC Designs
-          </div>
-          <div class="pub-authors">Pin-Han Chen, Chanhee Yang, Sungchul Joo, Hyungsoo Moon, <strong>Che-Ming Chang</strong>, Taek-Soo Kim, Sung Kyu Lim</div>
-          <div class="pub-venue">45th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2026</div>
-        </li>
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            <a href="https://doi.org/10.18653/v1/2026.eacl-industry.57" target="_blank" rel="noopener">CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization</a>
-          </div>
-          <div class="pub-authors"><strong>Che-Ming Chang</strong>, Prashanth Vijayaraghavan, Ashutosh Jadhav, Charles Mackin, Hsinyu Tsai, Vandana Mukherjee, Ehsan Degan</div>
-          <div class="pub-venue">19th Conference of the European Chapter of the Association for Computational Linguistics (EACL,Industry Track), 2026</div>
-        </li>
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            <a href="https://doi.org/10.1109/ICCAD66269.2025.11240814" target="_blank" rel="noopener">Advanced Packaging Warpage Modeling with DeepONet-Based Operator Learning</a>
-          </div>
-          <div class="pub-authors">Shao-Yu Lo, <strong>Che-Ming Chang</strong>, Yao-Wen Chang</div>
-          <div class="pub-venue">44th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2025</div>
-        </li>
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            <a href="https://doi.org/10.1109/TQE.2025.3548423" target="_blank" rel="noopener">Quantum Circuit Compilation for Trapped-Ion Processors With the Drive-Through Architecture</a>
-          </div>
-          <div class="pub-authors"><strong>Che-Ming Chang</strong>, Jie-Hong Roland Jiang, Dah-Wei Chiou, Ting Hsu, Guin-Dar Lin</div>
-          <div class="pub-venue">IEEE Transactions on Quantum Engineering (TQE), 2025</div>
-        </li>
-        
-        <li class="pub">
-          <div class="pub-title">
-            
-            <a href="https://doi.org/10.1145/3658617.3697730" target="_blank" rel="noopener">Mixed-Size Placement Prototyping Based on Reinforcement Learning with Semi-Concurrent Optimization</a>
-          </div>
-          <div class="pub-authors">Cheng-Yu Chiang, Yi-Hsien Chiang, Chao-Chi Lan, Yang Hsu, <strong>Che-Ming Chang</strong>, Shao-Chi Huang, Sheng-Hua Wang, Yao-Wen Chang, Hung-Ming Chen</div>
-          <div class="pub-venue">30th IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC), 2025</div>
-        </li>
-        
-      </ol>
-    </section>
+    <h3>Honors &amp; Scholarships</h3>
+    <ul class="plain-list">
+      
+      <li><span>Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC</span> <span class="muted">Sep 2024 – Jan 2025</span></li>
+      
+      <li><span>Scholarship for Overseas Internship Program, Ministry of Education</span> <span class="muted">Jun 2024 – Aug 2024</span></li>
+      
+      <li><span>Research Scholarship, MediaTek-NTU Research Center</span> <span class="muted">Mar 2024 – Jun 2024</span></li>
+      
+      <li><span>Second Prize and Global Nominee, NASA Space Apps Challenge</span> <span class="muted">Oct 2023</span></li>
+      
+      <li><span>College Student Research Scholarship, NSTC</span> <span class="muted">Aug 2023 – Feb 2024</span></li>
+      
+      <li><span>Dean's List Award '23 Spring, NTU</span> <span class="muted">Jun 2023</span></li>
+      
+    </ul>
+  </section>
 
-    <section id="experience" class="section">
-      <h2>Experience</h2>
+  <section id="publications" class="section">
+    <h2>Publications</h2>
+    <ol class="pubs">
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/qualcomm.png" alt="Qualcomm logo">
-        <div class="job-body">
-          <div class="entry-title">Research Intern, Methodology team</div>
-          <div class="entry-meta">Qualcomm, San Diego, CA · <span class="muted">May 2026 – Aug 2026</span></div>
-          <ul class="bullets">
-            <li>Developed an analytical, timing-aware Vt assignment methodology for ECO power optimization.</li><li>Improved TNS recovery by up to 36%, and full-flow ECO runtime by up to 26% on SoC-scale production designs while maintaining comparable timing and power QoR, enabling faster turnaround for production tapeouts.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          Encoding Symmetries into Operator Learning: Towards Accurate Multi-Physics Simulation in Advanced Packaging
         </div>
-      </div>
+        <div class="pub-authors"><strong>Che-Ming Chang</strong>, Shao-Yu Lo, Yao-Wen Chang, Sung Kyu Lim</div>
+        <div class="pub-venue">32nd IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC), 2027</div>
+      </li>
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/USC_logo.png" alt="University of Southern California logo">
-        <div class="job-body">
-          <div class="entry-title">Graduate Research Assistant, Southern California Computer-Aided Design Lab</div>
-          <div class="entry-meta">University of Southern California, Los Angeles, CA · <span class="muted">Sep 2025 – Present</span></div>
-          <ul class="bullets">
-            <li>Developed a ML-based global routing refinement framework.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          WAFER: Warpage Analysis via Fourier-Enhanced Residual Calibration for Large-Scale 2.5D IC Designs
         </div>
-      </div>
+        <div class="pub-authors">Pin-Han Chen, Chanhee Yang, Sungchul Joo, Hyungsoo Moon, <strong>Che-Ming Chang</strong>, Taek-Soo Kim, Sung Kyu Lim</div>
+        <div class="pub-venue">45th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2026</div>
+      </li>
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/NTU.png" alt="National Taiwan University logo">
-        <div class="job-body">
-          <div class="entry-title">Undergraduate Research Assistant, Electronic Design Automation Lab</div>
-          <div class="entry-meta">National Taiwan University, Taiwan · <span class="muted">Aug 2023 – Jan 2025</span></div>
-          <ul class="bullets">
-            <li>Assisted in reinforcement learning for concurrent macro placement project.</li><li>Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          <a href="https://doi.org/10.18653/v1/2026.eacl-industry.57" target="_blank" rel="noopener">CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization</a>
         </div>
-      </div>
+        <div class="pub-authors"><strong>Che-Ming Chang</strong>, Prashanth Vijayaraghavan, Ashutosh Jadhav, Charles Mackin, Hsinyu Tsai, Vandana Mukherjee, Ehsan Degan</div>
+        <div class="pub-venue">19th Conference of the European Chapter of the Association for Computational Linguistics (EACL,Industry Track), 2026</div>
+      </li>
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/NTU.png" alt="National Taiwan University logo">
-        <div class="job-body">
-          <div class="entry-title">Undergraduate Research Assistant, Applied Logic and Computation Lab</div>
-          <div class="entry-meta">National Taiwan University, Taiwan · <span class="muted">Sep 2022 – Jun 2024</span></div>
-          <ul class="bullets">
-            <li>Researched qubit mapping for trapped-ion processors.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          <a href="https://doi.org/10.1109/ICCAD66269.2025.11240814" target="_blank" rel="noopener">Advanced Packaging Warpage Modeling with DeepONet-Based Operator Learning</a>
         </div>
-      </div>
+        <div class="pub-authors">Shao-Yu Lo, <strong>Che-Ming Chang</strong>, Yao-Wen Chang</div>
+        <div class="pub-venue">44th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2025</div>
+      </li>
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/IBM.png" alt="IBM Research logo">
-        <div class="job-body">
-          <div class="entry-title">Research Intern, AI for EDA Group</div>
-          <div class="entry-meta">IBM Research, San Jose, CA · <span class="muted">Jun 2024 – Sep 2024</span></div>
-          <ul class="bullets">
-            <li>Developed an agentic LLM framework for RTL code optimization.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          <a href="https://doi.org/10.1109/TQE.2025.3548423" target="_blank" rel="noopener">Quantum Circuit Compilation for Trapped-Ion Processors With the Drive-Through Architecture</a>
         </div>
-      </div>
+        <div class="pub-authors"><strong>Che-Ming Chang</strong>, Jie-Hong Roland Jiang, Dah-Wei Chiou, Ting Hsu, Guin-Dar Lin</div>
+        <div class="pub-venue">IEEE Transactions on Quantum Engineering (TQE), 2025</div>
+      </li>
       
-      <div class="entry job">
-        <img class="logo" src="/assets/img/google.png" alt="Google logo">
-        <div class="job-body">
-          <div class="entry-title">Hardware Product Sprint</div>
-          <div class="entry-meta">Google, New Taipei · <span class="muted">Jun 2023 – Sep 2023</span></div>
-          <ul class="bullets">
-            <li>Developed Translingo, a transparent display translation device with real-time gesture and speech recognition on a Raspberry Pi.</li>
-          </ul>
+      <li class="pub">
+        <div class="pub-title">
+          
+          <a href="https://doi.org/10.1145/3658617.3697730" target="_blank" rel="noopener">Mixed-Size Placement Prototyping Based on Reinforcement Learning with Semi-Concurrent Optimization</a>
         </div>
-      </div>
+        <div class="pub-authors">Cheng-Yu Chiang, Yi-Hsien Chiang, Chao-Chi Lan, Yang Hsu, <strong>Che-Ming Chang</strong>, Shao-Chi Huang, Sheng-Hua Wang, Yao-Wen Chang, Hung-Ming Chen</div>
+        <div class="pub-venue">30th IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC), 2025</div>
+      </li>
       
+    </ol>
+  </section>
 
-    </section>
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/qualcomm.png" alt="Qualcomm logo">
+      <div class="job-body">
+        <div class="entry-title">Research Intern, Methodology team</div>
+        <div class="entry-meta">Qualcomm, San Diego, CA · <span class="muted">May 2026 – Aug 2026</span></div>
+        <ul class="bullets">
+          <li>Developed an analytical, timing-aware Vt assignment methodology for ECO power optimization.</li><li>Improved TNS recovery by up to 36%, and full-flow ECO runtime by up to 26% on SoC-scale production designs while maintaining comparable timing and power QoR, enabling faster turnaround for production tapeouts.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/USC_logo.png" alt="University of Southern California logo">
+      <div class="job-body">
+        <div class="entry-title">Graduate Research Assistant, Southern California Computer-Aided Design Lab</div>
+        <div class="entry-meta">University of Southern California, Los Angeles, CA · <span class="muted">Sep 2025 – Present</span></div>
+        <ul class="bullets">
+          <li>Developed a ML-based global routing refinement framework.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/NTU.png" alt="National Taiwan University logo">
+      <div class="job-body">
+        <div class="entry-title">Undergraduate Research Assistant, Electronic Design Automation Lab</div>
+        <div class="entry-meta">National Taiwan University, Taiwan · <span class="muted">Aug 2023 – Jan 2025</span></div>
+        <ul class="bullets">
+          <li>Assisted in reinforcement learning for concurrent macro placement project.</li><li>Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/NTU.png" alt="National Taiwan University logo">
+      <div class="job-body">
+        <div class="entry-title">Undergraduate Research Assistant, Applied Logic and Computation Lab</div>
+        <div class="entry-meta">National Taiwan University, Taiwan · <span class="muted">Sep 2022 – Jun 2024</span></div>
+        <ul class="bullets">
+          <li>Researched qubit mapping for trapped-ion processors.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/IBM.png" alt="IBM Research logo">
+      <div class="job-body">
+        <div class="entry-title">Research Intern, AI for EDA Group</div>
+        <div class="entry-meta">IBM Research, San Jose, CA · <span class="muted">Jun 2024 – Sep 2024</span></div>
+        <ul class="bullets">
+          <li>Developed an agentic LLM framework for RTL code optimization.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="entry job">
+      <img class="logo" src="/assets/img/google.png" alt="Google logo">
+      <div class="job-body">
+        <div class="entry-title">Hardware Product Sprint</div>
+        <div class="entry-meta">Google, New Taipei · <span class="muted">Jun 2023 – Sep 2023</span></div>
+        <ul class="bullets">
+          <li>Developed Translingo, a transparent display translation device with real-time gesture and speech recognition on a Raspberry Pi.</li>
+        </ul>
+      </div>
+    </div>
+    
+  </section>
 
-  </main>
-</div>
+</main>
 
 <script>
-  // Highlight the nav link for the section currently in view
+  // Highlight the top-bar link for the section currently in view
   (function () {
     var links = document.querySelectorAll('.nav a');
     var sections = Array.prototype.map.call(links, function (a) {
