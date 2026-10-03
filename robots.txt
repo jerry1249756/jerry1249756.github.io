@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jerry1249756.github.io/sitemap.xml

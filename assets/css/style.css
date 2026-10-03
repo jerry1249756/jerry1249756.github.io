@@ -1,0 +1,156 @@
+/* Morandi-inspired palette: muted, low-saturation tones */
+:root {
+  --bg: #f4f1ec;          /* warm paper */
+  --ink: #3b3835;         /* main text */
+  --muted: #7d766f;       /* secondary text */
+  --rule: #ddd6cc;        /* dividers */
+  --accent: #7f8f7b;      /* sage: nav hover + active */
+  --link: #6f8195;        /* dusty blue: links */
+  --clay: #a98573;        /* clay: avatar ring */
+  --sidebar-w: 280px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h2, h3, .name {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 56px 36px;
+  border-right: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border: 2px solid var(--clay);
+  margin-bottom: 20px;
+}
+
+.name { font-size: 26px; line-height: 1.2; margin: 0 0 6px; }
+.tagline { color: var(--muted); font-size: 14px; margin: 0 0 36px; }
+
+.nav { display: flex; flex-direction: column; gap: 4px; }
+.nav a {
+  color: var(--muted);
+  padding: 6px 0;
+  font-size: 15px;
+}
+.nav a:hover { color: var(--ink); text-decoration: none; }
+.nav a.active { color: var(--accent); font-weight: 500; }
+
+.profiles { margin-top: auto; display: flex; gap: 18px; }
+.profiles a { color: var(--muted); font-size: 22px; }
+.profiles a:hover { color: var(--ink); }
+
+/* Content */
+.content {
+  padding: 56px 64px 96px;
+  max-width: 840px;
+}
+
+.section {
+  scroll-margin-top: 24px;
+  padding-bottom: 56px;
+  margin-bottom: 56px;
+  border-bottom: 1px solid var(--rule);
+}
+.section:last-child { border-bottom: 0; }
+
+.section h2 { font-size: 30px; margin: 0 0 20px; }
+.section h3 {
+  font-size: 18px;
+  margin: 28px 0 10px;
+  color: var(--muted);
+}
+
+#about p { margin: 0 0 16px; }
+
+.muted { color: var(--muted); }
+
+/* Education & experience entries */
+.entry { margin-bottom: 18px; }
+.entry-title { font-weight: 500; }
+.entry-meta { color: var(--muted); font-size: 15px; }
+
+.plain-list { list-style: none; padding: 0; margin: 0; }
+.plain-list li { padding: 6px 0; border-bottom: 1px dotted var(--rule); }
+.plain-list li:last-child { border-bottom: 0; }
+
+.job {
+  display: flex;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px dotted var(--rule);
+}
+.job:last-of-type { border-bottom: 0; }
+.logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex: 0 0 56px;
+}
+.job-body { min-width: 0; }
+.bullets { margin: 8px 0 0; padding-left: 18px; color: var(--ink); font-size: 15px; }
+.bullets li { margin-bottom: 4px; }
+
+/* Publications */
+.pubs { list-style: none; padding: 0; margin: 0; counter-reset: pub; }
+.pub { padding: 14px 0; border-bottom: 1px dotted var(--rule); }
+.pub:last-child { border-bottom: 0; }
+.pub-title { font-weight: 500; }
+.pub-title a { color: var(--ink); }
+.pub-title a:hover { color: var(--link); }
+.pub-authors { font-size: 15px; color: var(--muted); margin-top: 2px; }
+.pub-venue { font-size: 15px; font-style: italic; color: var(--muted); }
+
+/* Phone / narrow screens: sidebar becomes a top header */
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar {
+    position: static;
+    height: auto;
+    padding: 32px 24px 20px;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .avatar { width: 88px; height: 88px; margin-bottom: 14px; }
+  .name { font-size: 22px; }
+  .tagline { margin-bottom: 18px; }
+  .nav { flex-direction: row; flex-wrap: wrap; gap: 4px 16px; }
+  .profiles { margin-top: 14px; }
+  .content { padding: 32px 24px 64px; }
+  .section { margin-bottom: 40px; padding-bottom: 40px; }
+}
