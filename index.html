@@ -16,30 +16,21 @@
 </head>
 <body>
 
-<div class="layout">
+<header class="topbar">
+  <a class="brand" href="#top">Che-Ming (Jerry) Chang</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+  </nav>
+</header>
 
-  <aside class="sidebar">
+<main class="page" id="top">
+
+  <section id="about" class="section intro">
     <img class="avatar" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Che-Ming (Jerry) Chang">
-    <h1 class="name">Che-Ming (Jerry) Chang</h1>
-    <p class="tagline">Ph.D. student, Electrical &amp; Computer Engineering, USC</p>
-
-    <nav class="nav" aria-label="Sections">
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
-    </nav>
-
-    <div class="profiles">
-      <a href="https://scholar.google.com/citations?user=IkYIgSQAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://www.linkedin.com/in/che-ming-jerry-chang-982339245" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a href="{{ '/assets/pdf/resume_260924.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="CV"><i class="fa-solid fa-file-pdf"></i></a>
-    </div>
-  </aside>
-
-  <main class="content">
-
-    <section id="about" class="section">
+    <div class="intro-body">
       <p>
         I am a Ph.D. student affiliated with the <a href="https://sites.usc.edu/sccad/" target="_blank" rel="noopener">Southern California Computer-Aided Design Lab (SCCAD)</a>, advised by Prof. Sung Kyu Lim. I received my B.S. in Electrical Engineering from National Taiwan University in June 2024 and previously interned at IBM Research and Qualcomm.
       </p>
@@ -47,63 +38,68 @@
         My research focuses on <strong>applying AI to electronic design automation (EDA)</strong>, with an emphasis on physical design, validated on not only academic benchmarks but also industrial flows. I have run end-to-end synthesis-to-signoff using <strong>Synopsys VCS, Design Compiler, PrimeTime, and Library Compiler</strong>, and <strong>Cadence Innovus</strong>.
       </p>
       <p>Outside of research, I enjoy working out, playing volleyball, and playing the piano.</p>
-    </section>
 
-    <section id="education" class="section">
-      <h2>Education</h2>
-      {% for d in site.data.education.degrees %}
-      <div class="entry">
-        <div class="entry-title">{{ d.school }}</div>
-        <div class="entry-meta">{{ d.degree }} · GPA {{ d.gpa }}</div>
+      <div class="buttons">
+        <a class="btn" href="https://scholar.google.com/citations?user=IkYIgSQAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+        <a class="btn" href="https://www.linkedin.com/in/che-ming-jerry-chang-982339245" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a class="btn" href="{{ '/assets/pdf/resume_260924.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> CV</a>
       </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    {% for d in site.data.education.degrees %}
+    <div class="entry">
+      <div class="entry-title">{{ d.school }}</div>
+      <div class="entry-meta">{{ d.degree }} · GPA {{ d.gpa }}</div>
+    </div>
+    {% endfor %}
+
+    <h3>Honors &amp; Scholarships</h3>
+    <ul class="plain-list">
+      {% for h in site.data.education.honors %}
+      <li><span>{{ h.title }}</span> <span class="muted">{{ h.date }}</span></li>
       {% endfor %}
+    </ul>
+  </section>
 
-      <h3>Honors &amp; Scholarships</h3>
-      <ul class="plain-list">
-        {% for h in site.data.education.honors %}
-        <li><span>{{ h.title }}</span> <span class="muted">{{ h.date }}</span></li>
-        {% endfor %}
-      </ul>
-    </section>
-
-    <section id="publications" class="section">
-      <h2>Publications</h2>
-      <ol class="pubs">
-        {% for p in site.data.publications %}
-        <li class="pub">
-          <div class="pub-title">
-            {% assign link = p.url | default: "" %}
-            {% if link contains "http" %}<a href="{{ link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.doi or link != "" %}<a href="https://doi.org/{{ p.doi | default: link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
-          </div>
-          <div class="pub-authors">{{ p.authors | replace: "Che-Ming Chang", "<strong>Che-Ming Chang</strong>" }}</div>
-          <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
-        </li>
-        {% endfor %}
-      </ol>
-    </section>
-
-    <section id="experience" class="section">
-      <h2>Experience</h2>
-      {% for w in site.data.experience.work %}
-      <div class="entry job">
-        <img class="logo" src="{{ '/assets/img/' | append: w.logo | relative_url }}" alt="{{ w.org }} logo">
-        <div class="job-body">
-          <div class="entry-title">{{ w.role }}</div>
-          <div class="entry-meta">{{ w.org }}, {{ w.location }} · <span class="muted">{{ w.date }}</span></div>
-          <ul class="bullets">
-            {% for h in w.highlights %}<li>{{ h }}</li>{% endfor %}
-          </ul>
+  <section id="publications" class="section">
+    <h2>Publications</h2>
+    <ol class="pubs">
+      {% for p in site.data.publications %}
+      <li class="pub">
+        <div class="pub-title">
+          {% assign link = p.url | default: "" %}
+          {% if link contains "http" %}<a href="{{ link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.doi or link != "" %}<a href="https://doi.org/{{ p.doi | default: link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
         </div>
-      </div>
+        <div class="pub-authors">{{ p.authors | replace: "Che-Ming Chang", "<strong>Che-Ming Chang</strong>" }}</div>
+        <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
+      </li>
       {% endfor %}
+    </ol>
+  </section>
 
-    </section>
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    {% for w in site.data.experience.work %}
+    <div class="entry job">
+      <img class="logo" src="{{ '/assets/img/' | append: w.logo | relative_url }}" alt="{{ w.org }} logo">
+      <div class="job-body">
+        <div class="entry-title">{{ w.role }}</div>
+        <div class="entry-meta">{{ w.org }}, {{ w.location }} · <span class="muted">{{ w.date }}</span></div>
+        <ul class="bullets">
+          {% for h in w.highlights %}<li>{{ h }}</li>{% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
 
-  </main>
-</div>
+</main>
 
 <script>
-  // Highlight the nav link for the section currently in view
+  // Highlight the top-bar link for the section currently in view
   (function () {
     var links = document.querySelectorAll('.nav a');
     var sections = Array.prototype.map.call(links, function (a) {
