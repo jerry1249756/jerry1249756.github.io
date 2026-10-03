@@ -17,7 +17,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family: "Lora", Georgia, serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -26,7 +26,7 @@ a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 h2, h3, .brand {
-  font-family: "Newsreader", Georgia, serif;
+  font-family: "Cormorant Garamond", Garamond, Georgia, serif;
   font-weight: 500;
   color: var(--ink);
 }
@@ -79,11 +79,11 @@ h2, h3, .brand {
 .avatar {
   flex: 0 0 240px;
   width: 240px;
-  height: 240px;
-  border-radius: 50%;
+  height: 320px;
+  border-radius: 0;
   object-fit: cover;
   object-position: 50% 30%;
-  border: 3px solid var(--clay);
+  border: 0;
 }
 
 .intro-body { flex: 1; min-width: 0; }
@@ -160,7 +160,7 @@ h2, h3, .brand {
   .nav a { font-size: 16px; }
   .page { padding: 32px 20px 72px; }
   .intro { flex-direction: column; align-items: center; text-align: center; gap: 24px; }
-  .avatar { flex-basis: 170px; width: 170px; height: 170px; }
+  .avatar { flex-basis: 170px; width: 170px; height: 227px; }
   .buttons { justify-content: center; }
   .section h2 { font-size: 36px; }
   .job { gap: 16px; }
