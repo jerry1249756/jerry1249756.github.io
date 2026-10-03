@@ -1,0 +1,59 @@
+# Work experience & service (extracted from the old _pages/experience.md)
+# logo: file name under assets/img/
+
+work:
+  - role: Research Intern, Methodology team
+    org: Qualcomm
+    location: San Diego, CA
+    logo: qualcomm.png
+    date: May 2026 – Aug 2026
+    highlights:
+      - Developed an analytical, timing-aware Vt assignment methodology for ECO power optimization.
+      - Improved TNS recovery by up to 36%, and full-flow ECO runtime by up to 26% on SoC-scale production designs while maintaining comparable timing and power QoR, enabling faster turnaround for production tapeouts.
+
+  - role: Graduate Research Assistant, Southern California Computer-Aided Design Lab
+    org: University of Southern California
+    location: Los Angeles, CA
+    logo: USC_logo.png
+    date: Sep 2025 – Present
+    highlights:
+      - Developed a ML-based global routing refinement framework.
+
+  - role: Undergraduate Research Assistant, Electronic Design Automation Lab
+    org: National Taiwan University
+    location: Taiwan
+    logo: NTU.png
+    date: Aug 2023 – Jan 2025
+    highlights:
+      - Assisted in reinforcement learning for concurrent macro placement project.
+      - Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.
+
+  - role: Undergraduate Research Assistant, Applied Logic and Computation Lab
+    org: National Taiwan University
+    location: Taiwan
+    logo: NTU.png
+    date: Sep 2022 – Jun 2024
+    highlights:
+      - Researched qubit mapping for trapped-ion processors.
+
+  - role: Research Intern, AI for EDA Group
+    org: IBM Research
+    location: San Jose, CA
+    logo: IBM.png
+    date: Jun 2024 – Sep 2024
+    highlights:
+      - Developed an agentic LLM framework for RTL code optimization.
+
+  - role: Hardware Product Sprint
+    org: Google
+    location: New Taipei
+    logo: google.png
+    date: Jun 2023 – Sep 2023
+    highlights:
+      - Developed Translingo, a transparent display translation device with real-time gesture and speech recognition on a Raspberry Pi.
+
+service:
+  - Reviewer, 45th International Conference on Computer-Aided Design (ICCAD '26)
+  - Reviewer, 34th International Symposium on Physical Design (ISPD '25)
+  - Volunteer, 27th International Conference on Quantum Information Processing (QIP '24)
+  - Volunteer, First IEEE International Workshop on LLM-Aided Design (LAD '24)

@@ -1,0 +1,23 @@
+# Education & honors (extracted from the old _pages/experience.md)
+
+degrees:
+  - school: University of Southern California
+    degree: Ph.D. student, Electrical and Computer Engineering
+    gpa: "4.0 / 4.0 overall"
+  - school: National Taiwan University
+    degree: B.S. in Electrical Engineering
+    gpa: "4.17 / 4.3 major"
+
+honors:
+  - title: Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC
+    date: Sep 2024 – Jan 2025
+  - title: Scholarship for Overseas Internship Program, Ministry of Education
+    date: Jun 2024 – Aug 2024
+  - title: Research Scholarship, MediaTek-NTU Research Center
+    date: Mar 2024 – Jun 2024
+  - title: Second Prize and Global Nominee, NASA Space Apps Challenge
+    date: Oct 2023
+  - title: College Student Research Scholarship, NSTC
+    date: Aug 2023 – Feb 2024
+  - title: Dean's List Award '23 Spring, NTU
+    date: Jun 2023

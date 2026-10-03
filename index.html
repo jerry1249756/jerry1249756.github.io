@@ -1,0 +1,131 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <img class="avatar" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Che-Ming (Jerry) Chang">
+    <h1 class="name">Che-Ming (Jerry) Chang</h1>
+    <p class="tagline">Ph.D. student, Electrical &amp; Computer Engineering, USC</p>
+
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="profiles">
+      <a href="https://scholar.google.com/citations?user=IkYIgSQAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/che-ming-jerry-chang-982339245" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="{{ '/assets/pdf/resume_260924.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="CV"><i class="fa-solid fa-file-pdf"></i></a>
+    </div>
+  </aside>
+
+  <main class="content">
+
+    <section id="about" class="section">
+      <p>
+        I am a Ph.D. student affiliated with the <a href="https://sites.usc.edu/sccad/" target="_blank" rel="noopener">Southern California Computer-Aided Design Lab (SCCAD)</a>, advised by Prof. Sung Kyu Lim. I received my B.S. in Electrical Engineering from National Taiwan University in June 2024 and previously interned at IBM Research and Qualcomm.
+      </p>
+      <p>
+        My research focuses on <strong>applying AI to electronic design automation (EDA)</strong>, with an emphasis on physical design, validated on not only academic benchmarks but also industrial flows. I have run end-to-end synthesis-to-signoff using <strong>Synopsys VCS, Design Compiler, PrimeTime, and Library Compiler</strong>, and <strong>Cadence Innovus</strong>.
+      </p>
+      <p>Outside of research, I enjoy working out, playing volleyball, and playing the piano.</p>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      {% for d in site.data.education.degrees %}
+      <div class="entry">
+        <div class="entry-title">{{ d.school }}</div>
+        <div class="entry-meta">{{ d.degree }} · GPA {{ d.gpa }}</div>
+      </div>
+      {% endfor %}
+
+      <h3>Honors &amp; Scholarships</h3>
+      <ul class="plain-list">
+        {% for h in site.data.education.honors %}
+        <li><span>{{ h.title }}</span> <span class="muted">{{ h.date }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <ol class="pubs">
+        {% for p in site.data.publications %}
+        <li class="pub">
+          <div class="pub-title">
+            {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+          </div>
+          <div class="pub-authors">{{ p.authors | replace: "Che-Ming Chang", "<strong>Che-Ming Chang</strong>" }}</div>
+          <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      {% for w in site.data.experience.work %}
+      <div class="entry job">
+        <img class="logo" src="{{ '/assets/img/' | append: w.logo | relative_url }}" alt="{{ w.org }} logo">
+        <div class="job-body">
+          <div class="entry-title">{{ w.role }}</div>
+          <div class="entry-meta">{{ w.org }}, {{ w.location }} · <span class="muted">{{ w.date }}</span></div>
+          <ul class="bullets">
+            {% for h in w.highlights %}<li>{{ h }}</li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+
+      <h3>Service</h3>
+      <ul class="plain-list">
+        {% for s in site.data.experience.service %}
+        <li>{{ s }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  // Highlight the nav link for the section currently in view
+  (function () {
+    var links = document.querySelectorAll('.nav a');
+    var sections = Array.prototype.map.call(links, function (a) {
+      return document.querySelector(a.getAttribute('href'));
+    });
+    if (!('IntersectionObserver' in window)) return;
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        links.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+        });
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(function (s) { if (s) observer.observe(s); });
+  })();
+</script>
+
+</body>
+</html>
