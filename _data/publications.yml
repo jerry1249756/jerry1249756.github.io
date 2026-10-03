@@ -2,34 +2,34 @@
 
 - title: "Encoding Symmetries into Operator Learning: Towards Accurate Multi-Physics Simulation in Advanced Packaging"
   authors: Che-Ming Chang, Shao-Yu Lo, Yao-Wen Chang, Sung Kyu Lim
-  venue: ASP-DAC
+  venue: 32nd IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC)
   year: 2027
 
 - title: "WAFER: Warpage Analysis via Fourier-Enhanced Residual Calibration for Large-Scale 2.5D IC Designs"
   authors: Pin-Han Chen, Chanhee Yang, Sungchul Joo, Hyungsoo Moon, Che-Ming Chang, Taek-Soo Kim, Sung Kyu Lim
-  venue: ICCAD
+  venue: 45th IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
   year: 2026
 
 - title: "CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization"
   authors: Che-Ming Chang, Prashanth Vijayaraghavan, Ashutosh Jadhav, Charles Mackin, Hsinyu Tsai, Vandana Mukherjee, Ehsan Degan
-  venue: EACL (Industry Track)
+  venue: 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL,Industry Track)
   year: 2026
-  url: https://aclanthology.org/2026.eacl-industry.57/
+  doi: 10.18653/v1/2026.eacl-industry.57
 
 - title: "Advanced Packaging Warpage Modeling with DeepONet-Based Operator Learning"
   authors: Shao-Yu Lo, Che-Ming Chang, Yao-Wen Chang
-  venue: ICCAD
+  venue: 44th IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
   year: 2025
   doi: 10.1109/ICCAD66269.2025.11240814
 
 - title: "Quantum Circuit Compilation for Trapped-Ion Processors With the Drive-Through Architecture"
   authors: Che-Ming Chang, Jie-Hong Roland Jiang, Dah-Wei Chiou, Ting Hsu, Guin-Dar Lin
-  venue: IEEE Transactions on Quantum Engineering
+  venue: IEEE Transactions on Quantum Engineering (TQE)
   year: 2025
   doi: 10.1109/TQE.2025.3548423
 
 - title: "Mixed-Size Placement Prototyping Based on Reinforcement Learning with Semi-Concurrent Optimization"
   authors: Cheng-Yu Chiang, Yi-Hsien Chiang, Chao-Chi Lan, Yang Hsu, Che-Ming Chang, Shao-Chi Huang, Sheng-Hua Wang, Yao-Wen Chang, Hung-Ming Chen
-  venue: ASP-DAC
+  venue: 30th IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC)
   year: 2025
   doi: 10.1145/3658617.3697730

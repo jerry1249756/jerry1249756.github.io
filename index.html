@@ -9,7 +9,7 @@
   <meta name="description" content="{{ site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -72,7 +72,8 @@
         {% for p in site.data.publications %}
         <li class="pub">
           <div class="pub-title">
-            {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+            {% assign link = p.url | default: "" %}
+            {% if link contains "http" %}<a href="{{ link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.doi or link != "" %}<a href="https://doi.org/{{ p.doi | default: link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
           </div>
           <div class="pub-authors">{{ p.authors | replace: "Che-Ming Chang", "<strong>Che-Ming Chang</strong>" }}</div>
           <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
@@ -96,12 +97,6 @@
       </div>
       {% endfor %}
 
-      <h3>Service</h3>
-      <ul class="plain-list">
-        {% for s in site.data.experience.service %}
-        <li>{{ s }}</li>
-        {% endfor %}
-      </ul>
     </section>
 
   </main>

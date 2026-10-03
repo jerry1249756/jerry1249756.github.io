@@ -3,10 +3,10 @@
 degrees:
   - school: University of Southern California
     degree: Ph.D. student, Electrical and Computer Engineering
-    gpa: "4.0 / 4.0 overall"
+    gpa: "4.0 / 4.0"
   - school: National Taiwan University
     degree: B.S. in Electrical Engineering
-    gpa: "4.17 / 4.3 major"
+    gpa: "4.17 / 4.3"
 
 honors:
   - title: Taiwan Chip-based Industrial Innovation Program Research Scholarship, NSTC
