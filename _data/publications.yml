@@ -1,5 +1,10 @@
 # Publications, reverse chronological (extracted from _bibliography/papers.bib)
 
+- title: "Physical Design Algorithms for Logic Folding and Fine-Grained Logic-on-Logic 3D ICs"
+  authors: Che-Ming Chang, Sung Kyu Lim
+  venue: 32nd IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC)
+  year: 2027
+
 - title: "Encoding Symmetries into Operator Learning: Towards Accurate Multi-Physics Simulation in Advanced Packaging"
   authors: Che-Ming Chang, Shao-Yu Lo, Yao-Wen Chang, Sung Kyu Lim
   venue: 32nd IEEE/ACM Asia South Pacific Design Automation Conference (ASP-DAC)

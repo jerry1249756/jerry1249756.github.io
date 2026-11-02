@@ -17,7 +17,8 @@ work:
     logo: USC_logo.png
     date: Sep 2025 – Present
     highlights:
-      - Developed a ML-based global routing refinement framework.
+      - Researched in ML-based global routing refinement framework.
+      - Researched in floorplanning and pin assignment for 3D IC designs.
 
   - role: Undergraduate Research Assistant, Electronic Design Automation Lab
     org: National Taiwan University
@@ -26,7 +27,7 @@ work:
     date: Aug 2023 – Jan 2025
     highlights:
       - Assisted in reinforcement learning for concurrent macro placement project.
-      - Developed a CNN-enhanced DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.
+      - Researched in DeepONet-based operator learning framework for warpage prediction in advanced packaging designs.
 
   - role: Undergraduate Research Assistant, Applied Logic and Computation Lab
     org: National Taiwan University
@@ -34,7 +35,7 @@ work:
     logo: NTU.png
     date: Sep 2022 – Jun 2024
     highlights:
-      - Researched qubit mapping for trapped-ion processors.
+      - Researched in qubit mapping for trapped-ion processors.
 
   - role: Research Intern, AI for EDA Group
     org: IBM Research
@@ -42,7 +43,7 @@ work:
     logo: IBM.png
     date: Jun 2024 – Sep 2024
     highlights:
-      - Developed an agentic LLM framework for RTL code optimization.
+      - Researched in agentic LLM framework for RTL code optimization.
 
   - role: Hardware Product Sprint
     org: Google
