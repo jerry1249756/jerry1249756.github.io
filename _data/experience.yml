@@ -2,6 +2,15 @@
 # logo: file name under assets/img/
 
 work:
+  - role: Graduate Research Assistant, Southern California Computer-Aided Design Lab
+    org: University of Southern California
+    location: Los Angeles, CA
+    logo: USC_logo.png
+    date: Sep 2025 – Present
+    highlights:
+      - ML-based Global Routing Refinement (NVIDIA, 2025-2026)
+      - Floorplanning and Pin Assignment for 3D ICs (SRC JUMP 2.0, 2026)
+
   - role: Research Intern, Methodology team
     org: Qualcomm
     location: San Diego, CA
@@ -10,15 +19,6 @@ work:
     highlights:
       - Developed an analytical, timing-aware Vt assignment methodology for ECO power optimization.
       - Improved TNS recovery by up to 36%, and full-flow ECO runtime by up to 26% on SoC-scale production designs while maintaining comparable timing and power QoR, enabling faster turnaround for production tapeouts.
-
-  - role: Graduate Research Assistant, Southern California Computer-Aided Design Lab
-    org: University of Southern California
-    location: Los Angeles, CA
-    logo: USC_logo.png
-    date: Sep 2025 – Present
-    highlights:
-      - Machine Learning-based Global Routing Refinement (NVIDIA, 2025-2026)
-      - Floorplanning and Pin Assignment for 3D ICs (SRC JUMP 2.0, 2026)
 
   - role: Undergraduate Research Assistant, Electronic Design Automation Lab
     org: National Taiwan University
