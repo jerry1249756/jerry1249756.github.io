@@ -117,7 +117,7 @@ h2, h3, .brand {
 .muted { color: var(--muted); }
 
 /* Education & experience entries */
-.entry { margin-bottom: 20px; }
+.entry { margin-bottom: 16px; }
 .entry-title { font-weight: 500; font-size: 20px; }
 .entry-meta { color: var(--muted); font-size: 17px; }
 
@@ -128,7 +128,8 @@ h2, h3, .brand {
 .job {
   display: flex;
   gap: 24px;
-  padding: 22px 0;
+  margin-bottom: 0;
+  padding: 16px 0;
   border-bottom: 1px dotted var(--rule);
 }
 .job:last-of-type { border-bottom: 0; }
@@ -144,7 +145,7 @@ h2, h3, .brand {
 
 /* Publications */
 .pubs { list-style: none; padding: 0; margin: 0; }
-.pub { padding: 18px 0; border-bottom: 1px dotted var(--rule); }
+.pub { padding: 16px 0; border-bottom: 1px dotted var(--rule); }
 .pub:last-child { border-bottom: 0; }
 .pub-title { font-weight: 500; font-size: 20px; }
 .pub-title a { color: var(--ink); }
