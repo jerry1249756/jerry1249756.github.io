@@ -152,6 +152,20 @@ h2, h3, .brand {
 .pub-title a:hover { color: var(--link); }
 .pub-authors { font-size: 17px; color: var(--muted); margin-top: 4px; }
 .pub-venue { font-size: 17px; font-style: italic; color: var(--muted); }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border: 1px solid var(--link);
+  border-radius: 4px;
+  color: var(--link);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.pub-link:hover { background: var(--link); color: var(--bg); text-decoration: none; }
+.pub-link:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
 
 /* Phone / narrow screens: stack the intro, shrink the photo */
 @media (max-width: 720px) {
