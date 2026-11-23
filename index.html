@@ -20,8 +20,8 @@
   <a class="brand" href="#top">Che-Ming (Jerry) Chang</a>
   <nav class="nav" aria-label="Sections">
     <a href="#about">About</a>
-    <a href="#education">Education</a>
     <a href="#publications">Publications</a>
+    <a href="#education">Education</a>
     <a href="#experience">Experience</a>
     <a href="#honors">Honors</a>
   </nav>
@@ -48,17 +48,6 @@
     </div>
   </section>
 
-  <section id="education" class="section">
-    <h2>Education</h2>
-    {% for d in site.data.education.degrees %}
-    <div class="entry">
-      <div class="entry-title">{{ d.school }}</div>
-      <div class="entry-meta">{{ d.degree }} · GPA {{ d.gpa }}</div>
-    </div>
-    {% endfor %}
-
-  </section>
-
   <section id="publications" class="section">
     <h2>Publications</h2>
     {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
@@ -73,10 +62,31 @@
         </div>
         <div class="pub-authors">{{ p.authors | replace: "Che-Ming Chang", "<strong>Che-Ming Chang</strong>" }}</div>
         <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
+        {% if p.pdf or p.doi %}
+        <div class="pub-links">
+          {% if p.pdf %}
+          <a class="pub-link" href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: {{ p.title | escape }}"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+          {% endif %}
+          {% if p.doi %}
+          <a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" aria-label="DOI: {{ p.title | escape }}">DOI</a>
+          {% endif %}
+        </div>
+        {% endif %}
       </li>
       {% endfor %}
     </ol>
     {% endfor %}
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    {% for d in site.data.education.degrees %}
+    <div class="entry">
+      <div class="entry-title">{{ d.school }}</div>
+      <div class="entry-meta">{{ d.degree }} · GPA {{ d.gpa }}</div>
+    </div>
+    {% endfor %}
+
   </section>
 
   <section id="experience" class="section">
